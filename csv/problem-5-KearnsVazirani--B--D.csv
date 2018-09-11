@@ -1,0 +1,12 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+5,KearnsVazirani,buchi,disprove-first,3,14,3471,3317,0,0,16095,154,635,632,0,0,5824,3,8,25.000000,4
+5,KearnsVazirani,buchi,disprove-first,17,33,21942,18424,0,0,19930999,3518,2127,2122,0,0,129720,5,808,25.000000,6
+5,KearnsVazirani,buchi,disprove-first,49,33,21942,18424,0,0,42157886,3518,2127,2122,0,0,157347,5,808,25.000000,6
+5,KearnsVazirani,buchi,disprove-first,54,33,21942,18424,0,0,45069873,3518,2127,2122,0,0,159399,5,808,25.000000,6
+5,KearnsVazirani,buchi,disprove-first,90,33,21942,18424,0,0,62599210,3518,2127,2122,0,0,188676,5,808,25.000000,6
+5,KearnsVazirani,buchi,disprove-first,95,33,21942,18424,0,0,64843778,3518,2127,2122,0,0,192379,5,808,25.000000,6
+5,KearnsVazirani,buchi,disprove-first,96,33,21942,18424,0,0,64941776,3518,2127,2122,0,0,192686,5,624,25.000000,6
+5,KearnsVazirani,buchi,disprove-first,4,38,31104,23450,0,0,73944014,7654,2679,2673,0,0,203105,6,1696,25.000000,7
+5,KearnsVazirani,buchi,disprove-first,39,38,31104,23450,0,0,109402823,7654,2679,2673,0,0,229379,6,1260,25.000000,7
+5,KearnsVazirani,buchi,disprove-first,57,39,36649,24229,0,0,216549960,12420,2805,2798,0,0,320331,7,845,25.000000,8
+5,KearnsVazirani,buchi,disprove-first,94,56,68456,38875,0,0,738749547,29581,4688,4678,0,0,657772,10,8,25.000000,11

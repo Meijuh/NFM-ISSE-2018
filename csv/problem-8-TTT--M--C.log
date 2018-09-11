@@ -1,0 +1,978 @@
+[main] INFO nl.utwente.fmt.rers.Main - hostname: ctit009.ewi.utwente.nl
+[main] INFO nl.utwente.fmt.rers.Main - commandline is: -c -t3600 -m40.0 -u20 8 TTT -M -C
+[main] INFO nl.utwente.fmt.rers.Main - multiplier is: 40.0
+[main] INFO nl.utwente.fmt.rers.Main - minimum unfolds is : 20
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #0: (false R (!(letter == "U") || ((!(((letter == "Y") && !(letter == "R")) && X (!(letter == "R") U ((letter == "V") && !(letter == "R")))) U ((letter == "R") || (letter == "A"))) || (false R !((letter == "Y") && X (true U (letter == "V")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #1: (false R (!(((letter == "S") && !(letter == "K")) && (true U (letter == "K"))) || (!(letter == "Y") U ((letter == "F") || (letter == "K")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #2: (false R (!(letter == "P") || (false R (!(letter == "F") || (true U (letter == "Q"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #3: (false R (!(((letter == "A") && !(letter == "I")) && (true U (letter == "I"))) || (!(letter == "R") U ((letter == "M") || (letter == "I")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #4: (false R (!(letter == "E") || (true U (letter == "Z"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #5: ((false R !(letter == "S")) || (!(letter == "S") U ((letter == "S") && (!(true U (letter == "W")) || (!(letter == "W") U (((letter == "Q") && !(letter == "W")) && X (!(letter == "W") U (letter == "A"))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #6: (false R (!((letter == "I") && (true U (letter == "T"))) || ((!(letter == "K") || (!(letter == "T") U ((((letter == "X") && !(letter == "T")) && !(letter == "U")) && X ((!(letter == "T") && !(letter == "U")) U (letter == "Z"))))) U (letter == "T"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #7: (false R (!(letter == "R") || ((!(((letter == "T") && !(letter == "M")) && X (!(letter == "M") U ((letter == "V") && !(letter == "M")))) U ((letter == "M") || (letter == "C"))) || (false R !((letter == "T") && X (true U (letter == "V")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #8: (!(true U (letter == "Y")) || ((!(letter == "N") || (!(letter == "Y") U ((((letter == "R") && !(letter == "Y")) && !(letter == "V")) && X ((!(letter == "Y") && !(letter == "V")) U (letter == "S"))))) U (letter == "Y")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #9: (false R (!((letter == "O") && (true U (letter == "K"))) || (!(((letter == "V") && !(letter == "K")) && X (!(letter == "K") U ((letter == "Q") && !(letter == "K")))) U ((letter == "K") || (letter == "B")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #10: (!(true U (letter == "L")) || ((!(letter == "D") || (!(letter == "L") U ((letter == "Y") && !(letter == "L")))) U (letter == "L")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #11: (false R (!(letter == "Y") || (false R (!(letter == "F") || (true U (letter == "Q"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #12: (!(true U (letter == "O")) || ((!(letter == "G") || (!(letter == "O") U ((((letter == "X") && !(letter == "O")) && !(letter == "W")) && X ((!(letter == "O") && !(letter == "W")) U (letter == "R"))))) U (letter == "O")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #13: (!(true U (letter == "C")) || ((!(letter == "D") || (!(letter == "C") U ((((letter == "X") && !(letter == "C")) && !(letter == "T")) && X ((!(letter == "C") && !(letter == "T")) U (letter == "U"))))) U (letter == "C")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #14: (!(true U (letter == "F")) || ((!(letter == "A") || (!(letter == "F") U (((letter == "T") && !(letter == "F")) && X (!(letter == "F") U (letter == "U"))))) U (letter == "F")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #15: (false R ((letter == "W") && (!!(letter == "O") || (!(letter == "Y") W ((letter == "E") || (letter == "O"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #16: (false R (!(letter == "B") || (false R (!(letter == "O") || (true U (letter == "S"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #17: (!(true U ((letter == "Q") && X (true U (letter == "S")))) || (!(letter == "Q") U (letter == "I")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #18: (false R (!((letter == "I") && (true U (letter == "K"))) || (!(letter == "S") U ((letter == "K") || (((letter == "W") && !(letter == "S")) && X (!(letter == "S") U (letter == "X")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #19: (!(true U (letter == "G")) || ((!(letter == "A") || (!(letter == "G") U (((letter == "R") && !(letter == "G")) && X (!(letter == "G") U (letter == "S"))))) U (letter == "G")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #20: (!(true U (letter == "L")) || (((letter == "I") && (!X (!(letter == "L") U (letter == "H")) || X (!(letter == "L") U ((letter == "H") && (true U (letter == "V")))))) U (letter == "L")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #21: (false R (!(letter == "L") || (true U (((letter == "V") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "R"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #22: (false R (!((letter == "Y") && (true U (letter == "U"))) || (!(letter == "Z") U ((letter == "U") || (((letter == "O") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "R")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #23: (false R (!(letter == "K") || (((letter == "G") && (!X (!(letter == "L") U (letter == "I")) || X (!(letter == "L") U ((letter == "I") && (true U (letter == "Y")))))) U ((letter == "L") || (false R ((letter == "G") && (!X (!(letter == "L") U (letter == "I")) || X (!(letter == "L") U ((letter == "I") && (true U (letter == "Y")))))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #24: (!(true U (letter == "E")) || ((!(letter == "F") || (!(letter == "E") U (((letter == "Y") && !(letter == "E")) && X (!(letter == "E") U (letter == "Q"))))) U (letter == "E")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #25: (false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #26: (!(true U (letter == "D")) || ((!(letter == "G") || (!(letter == "D") U (((letter == "P") && !(letter == "D")) && X (!(letter == "D") U (letter == "S"))))) U (letter == "D")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #27: (!(letter == "U") W (letter == "E"))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #28: (false R (!(letter == "H") || ((!(letter == "D") || (!(letter == "C") U (((letter == "Y") && !(letter == "C")) && X (!(letter == "C") U (letter == "S"))))) U ((letter == "C") || (false R (!(letter == "D") || ((letter == "Y") && X (true U (letter == "S")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #29: (!(true U ((letter == "S") && X (true U (letter == "X")))) || (!(letter == "S") U (letter == "Z")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #30: (false R (!((letter == "L") && (true U (letter == "E"))) || ((!(letter == "B") || (!(letter == "E") U ((((letter == "W") && !(letter == "E")) && !(letter == "S")) && X ((!(letter == "E") && !(letter == "S")) U (letter == "Z"))))) U (letter == "E"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #31: (false R (!((letter == "I") && (true U (letter == "J"))) || (!(letter == "P") U ((letter == "J") || (((letter == "S") && !(letter == "P")) && X (!(letter == "P") U (letter == "M")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #32: (false R (!(letter == "F") || (true U ((letter == "P") && X (true U (letter == "S"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #33: (false R (!(letter == "B") || (false R (!(letter == "F") || (((letter == "V") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "P")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #34: (!(true U ((letter == "X") && X (true U (letter == "P")))) || (!(letter == "X") U (letter == "V")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #35: ((false R !(letter == "Y")) || (!(letter == "Y") U ((letter == "Y") && (!(true U ((letter == "Q") && X (true U (letter == "V")))) || (!(letter == "Q") U (letter == "D"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #36: (false R (!(letter == "W") || (!(true U (letter == "X")) || (!(letter == "X") U ((letter == "R") || (((letter == "N") && !(letter == "X")) && X (!(letter == "X") U (letter == "A"))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #37: (false R (!(letter == "D") || (true U ((letter == "Z") && X (true U (letter == "V"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #38: (false R ((letter == "T") && (!!(letter == "Y") || (!(letter == "Z") W ((letter == "A") || (letter == "Y"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #39: (false R (!((letter == "L") && (true U (letter == "U"))) || (!(letter == "P") U ((letter == "U") || (((letter == "Q") && !(letter == "P")) && X (!(letter == "P") U (letter == "Y")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #40: (false R (!(letter == "W") || (false R (!(letter == "O") || ((letter == "Z") && X (true U (letter == "T")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #41: (false R (!(letter == "U") || (false R (!(letter == "H") || (true U (letter == "P"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #42: (false R (!(letter == "V") || (((letter == "J") && (!X (!(letter == "H") U (letter == "A")) || X (!(letter == "H") U ((letter == "A") && (true U (letter == "P")))))) U ((letter == "H") || (false R ((letter == "J") && (!X (!(letter == "H") U (letter == "A")) || X (!(letter == "H") U ((letter == "A") && (true U (letter == "P")))))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #43: (!(letter == "S") W (letter == "R"))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #44: (false R (!(letter == "Z") || (false R (!(letter == "E") || (((letter == "R") && !(letter == "X")) && X (!(letter == "X") U (letter == "Q")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #45: (!(true U (letter == "F")) || (!(letter == "W") U ((letter == "F") || (((letter == "L") && !(letter == "W")) && X (!(letter == "W") U (letter == "X"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #46: (false R (!(letter == "N") || (true U (letter == "Y"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #47: (false R (!(letter == "V") || (false R (!(letter == "H") || ((letter == "P") && X (true U (letter == "R")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #48: (false R ((letter == "A") && (!X (true U (letter == "E")) || X (true U ((letter == "E") && (true U (letter == "P")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #49: (false R (!((letter == "L") && (true U (letter == "U"))) || (!(((letter == "S") && !(letter == "U")) && X (!(letter == "U") U ((letter == "W") && !(letter == "U")))) U ((letter == "U") || (letter == "K")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #50: ((false R !(letter == "Q")) || (!(letter == "Q") U ((letter == "Q") && (!(true U ((letter == "R") && X (true U (letter == "S")))) || (!(letter == "R") U (letter == "X"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #51: (false R ((letter == "N") && (!!(letter == "Q") || (!(letter == "V") W ((letter == "I") || (letter == "Q"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #52: (false R (!(letter == "J") || (true U (letter == "V"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #53: (!(true U (letter == "M")) || ((!(letter == "I") || (!(letter == "M") U ((letter == "R") && !(letter == "M")))) U (letter == "M")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #54: (!(true U (letter == "C")) || ((!(letter == "D") || (!(letter == "C") U ((letter == "P") && !(letter == "C")))) U (letter == "C")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #55: (false R (!(((letter == "H") && !(letter == "I")) && (true U (letter == "I"))) || (!(letter == "Y") U ((letter == "B") || (letter == "I")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #56: (false R (!((letter == "M") && (true U (letter == "N"))) || ((!(letter == "A") || (!(letter == "N") U ((((letter == "R") && !(letter == "N")) && !(letter == "T")) && X ((!(letter == "N") && !(letter == "T")) U (letter == "X"))))) U (letter == "N"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #57: (false R (!((letter == "F") && (true U (letter == "B"))) || (!(letter == "P") U ((letter == "B") || (((letter == "S") && !(letter == "P")) && X (!(letter == "P") U (letter == "H")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #58: (!(true U (letter == "D")) || (((letter == "G") && (!X (!(letter == "D") U (letter == "C")) || X (!(letter == "D") U ((letter == "C") && (true U (letter == "T")))))) U (letter == "D")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #59: (!(letter == "P") W (letter == "A"))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #60: (false R (!(letter == "E") || (false R (!(letter == "F") || (((letter == "R") && !(letter == "W")) && X (!(letter == "W") U (letter == "V")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #61: (false R (!((letter == "C") && (true U (letter == "N"))) || ((!(letter == "E") || (!(letter == "N") U (((letter == "S") && !(letter == "N")) && X (!(letter == "N") U (letter == "R"))))) U (letter == "N"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #62: (!(true U (letter == "C")) || (!(((letter == "S") && !(letter == "C")) && X (!(letter == "C") U ((letter == "R") && !(letter == "C")))) U ((letter == "C") || (letter == "F"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #63: (false R (!(letter == "A") || (true U ((letter == "U") && X (true U (letter == "T"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #64: (false R (!(letter == "U") || (false R (!(letter == "N") || (((letter == "X") && !(letter == "S")) && X (!(letter == "S") U (letter == "V")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #65: (false R ((letter == "J") && (!X (true U (letter == "M")) || X (true U ((letter == "M") && (true U (letter == "P")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #66: (false R (!(letter == "C") || (true U ((letter == "U") && X (true U (letter == "S"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #67: (!(true U (letter == "D")) || (((letter == "M") && (!X (!(letter == "D") U (letter == "H")) || X (!(letter == "D") U ((letter == "H") && (true U (letter == "S")))))) U (letter == "D")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #68: ((false R !(letter == "K")) || (!(letter == "K") U ((letter == "K") && (!(true U (letter == "W")) || (!(letter == "W") U (((letter == "T") && !(letter == "W")) && X (!(letter == "W") U (letter == "Y"))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #69: (false R (!(letter == "P") || (false R ((letter == "A") && (!X (true U (letter == "N")) || X (!(letter == "N") U ((letter == "N") && (true U (letter == "Z")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #70: (false R (!((letter == "L") && (true U (letter == "U"))) || (!(letter == "R") U ((letter == "U") || (((letter == "V") && !(letter == "R")) && X (!(letter == "R") U (letter == "F")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #71: (false R (!((letter == "P") && (true U (letter == "O"))) || (!(letter == "R") U ((letter == "O") || (((letter == "C") && !(letter == "R")) && X (!(letter == "R") U (letter == "N")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #72: (false R (!((letter == "P") && (true U (letter == "W"))) || (!(((letter == "T") && !(letter == "W")) && X (!(letter == "W") U ((letter == "Z") && !(letter == "W")))) U ((letter == "W") || (letter == "R")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #73: (false R (!((letter == "O") && (true U (letter == "E"))) || ((!(letter == "J") || (!(letter == "E") U ((((letter == "P") && !(letter == "E")) && !(letter == "Z")) && X ((!(letter == "E") && !(letter == "Z")) U (letter == "T"))))) U (letter == "E"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #74: (!(true U (letter == "X")) || (!(((letter == "W") && !(letter == "X")) && X (!(letter == "X") U ((letter == "Q") && !(letter == "X")))) U ((letter == "X") || (letter == "T"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #75: (false R ((letter == "F") && (!!(letter == "K") || (!(letter == "X") W ((letter == "L") || (letter == "K"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #76: (false R (!(letter == "S") || (((letter == "M") && (!X (!(letter == "G") U (letter == "F")) || X (!(letter == "G") U ((letter == "F") && (true U (letter == "W")))))) U ((letter == "G") || (false R ((letter == "M") && (!X (!(letter == "G") U (letter == "F")) || X (!(letter == "G") U ((letter == "F") && (true U (letter == "W")))))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #77: (!(letter == "R") W (letter == "E"))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #78: (false R (!(letter == "O") || ((!(letter == "K") || (!(letter == "W") U (((letter == "V") && !(letter == "W")) && X (!(letter == "W") U (letter == "U"))))) U ((letter == "W") || (false R (!(letter == "K") || ((letter == "V") && X (true U (letter == "U")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #79: (!(true U (letter == "A")) || (((letter == "L") && (!X (!(letter == "A") U (letter == "J")) || X (!(letter == "A") U ((letter == "J") && (true U (letter == "X")))))) U (letter == "A")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #80: (false R (!(letter == "U") || (false R ((letter == "H") && (!X (true U (letter == "N")) || X (!(letter == "N") U ((letter == "N") && (true U (letter == "S")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #81: (false R (!(letter == "Q") || (!(true U (letter == "Z")) || (!(letter == "Z") U ((letter == "X") || (((letter == "H") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "U"))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #82: (!(true U (letter == "T")) || (!(letter == "T") U (((letter == "G") && !(letter == "T")) && X (!(letter == "T") U (letter == "V")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #83: (false R (!(((letter == "X") && !(letter == "T")) && (true U (letter == "T"))) || (!(letter == "Y") U ((letter == "V") || (letter == "T")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #84: (false R (!(letter == "O") || (true U (letter == "R"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #85: (false R ((letter == "R") && (!!(letter == "O") || (!(letter == "Q") W ((letter == "N") || (letter == "O"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #86: (false R (!(letter == "J") || ((!(letter == "A") || (!(letter == "B") U ((((letter == "R") && !(letter == "B")) && !(letter == "W")) && X ((!(letter == "B") && !(letter == "W")) U (letter == "V"))))) U ((letter == "B") || (false R (!(letter == "A") || (((letter == "R") && !(letter == "W")) && X (!(letter == "W") U (letter == "V")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #87: (!(true U (letter == "T")) || ((!(letter == "H") || (!(letter == "T") U ((((letter == "W") && !(letter == "T")) && !(letter == "Y")) && X ((!(letter == "T") && !(letter == "Y")) U (letter == "R"))))) U (letter == "T")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #88: (false R (!(((letter == "Y") && !(letter == "W")) && (true U (letter == "W"))) || ((!(letter == "H") || (!(letter == "W") U ((letter == "S") && !(letter == "W")))) U (letter == "W"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #89: (false R (!(letter == "B") || ((!(((letter == "V") && !(letter == "J")) && X (!(letter == "J") U ((letter == "W") && !(letter == "J")))) U ((letter == "J") || (letter == "Y"))) || (false R !((letter == "V") && X (true U (letter == "W")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #90: (false R (!(letter == "X") || (false R (!(letter == "K") || (((letter == "P") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "W")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #91: (false R (!((letter == "N") && (true U (letter == "X"))) || (!(letter == "Y") U ((letter == "X") || (((letter == "F") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "S")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #92: (false R (!(((letter == "E") && !(letter == "P")) && (true U (letter == "P"))) || (!(letter == "R") U ((letter == "G") || (letter == "P")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #93: ((false R !(letter == "U")) || (!(letter == "U") U ((letter == "U") && (!(true U (letter == "Y")) || (!(letter == "Y") U (((letter == "N") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "J"))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #94: (!(true U (letter == "A")) || (!(letter == "U") U ((letter == "S") || (letter == "A"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #95: (false R ((letter == "N") && (!X (true U (letter == "L")) || X (true U ((letter == "L") && (true U (letter == "W")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #96: (!(true U (letter == "U")) || ((!(letter == "C") || (!(letter == "U") U ((((letter == "R") && !(letter == "U")) && !(letter == "V")) && X ((!(letter == "U") && !(letter == "V")) U (letter == "W"))))) U (letter == "U")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #97: (false R (!((letter == "L") && (true U (letter == "G"))) || (!(((letter == "W") && !(letter == "G")) && X (!(letter == "G") U ((letter == "Y") && !(letter == "G")))) U ((letter == "G") || (letter == "Q")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #98: (false R (!(letter == "C") || (true U (((letter == "T") && !(letter == "V")) && X (!(letter == "V") U (letter == "Y"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #99: (false R ((letter == "G") && (!!(letter == "C") || (!(letter == "Y") W ((letter == "B") || (letter == "C"))))))
+[main] INFO de.learnlib.util.Experiment - Starting round 1
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "W") && (!!(letter == "O") || (!(letter == "Y") W ((letter == "E") || (letter == "O"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(!(true U (letter == "L")) || (((letter == "I") && (!X (!(letter == "L") U (letter == "H")) || X (!(letter == "L") U ((letter == "H") && (true U (letter == "V")))))) U (letter == "L")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J L / Q -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J L / Q -]
+[main] INFO de.learnlib.util.Experiment - Starting round 2
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "K") || (((letter == "G") && (!X (!(letter == "L") U (letter == "I")) || X (!(letter == "L") U ((letter == "I") && (true U (letter == "Y")))))) U ((letter == "L") || (false R ((letter == "G") && (!X (!(letter == "L") U (letter == "I")) || X (!(letter == "L") U ((letter == "I") && (true U (letter == "Y")))))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K / Z]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(!(true U (letter == "E")) || ((!(letter == "F") || (!(letter == "E") U (((letter == "Y") && !(letter == "E")) && X (!(letter == "E") U (letter == "Q"))))) U (letter == "E")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|F E / T -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|F E / T -]
+[main] INFO de.learnlib.util.Experiment - Starting round 3
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(!(true U (letter == "E")) || ((!(letter == "F") || (!(letter == "E") U (((letter == "Y") && !(letter == "E")) && X (!(letter == "E") U (letter == "Q"))))) U (letter == "E")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|F D E / T Q -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D E / T Q -]
+[main] INFO de.learnlib.util.Experiment - Starting round 4
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "T") && (!!(letter == "Y") || (!(letter == "Z") W ((letter == "A") || (letter == "Y"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "A") && (!X (true U (letter == "E")) || X (true U ((letter == "E") && (true U (letter == "P")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "N") && (!!(letter == "Q") || (!(letter == "V") W ((letter == "I") || (letter == "Q"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(!(true U (letter == "M")) || ((!(letter == "I") || (!(letter == "M") U ((letter == "R") && !(letter == "M")))) U (letter == "M")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J O I M / Q P P -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O I M / Q P P -]
+[main] INFO de.learnlib.util.Experiment - Starting round 5
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "D")) || (((letter == "G") && (!X (!(letter == "D") U (letter == "C")) || X (!(letter == "D") U ((letter == "C") && (true U (letter == "T")))))) U (letter == "D")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D / T Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(letter == "P") W (letter == "A"))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O / Q P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "J") && (!X (true U (letter == "M")) || X (true U ((letter == "M") && (true U (letter == "P")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K / Z]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "D")) || (((letter == "M") && (!X (!(letter == "D") U (letter == "H")) || X (!(letter == "D") U ((letter == "H") && (true U (letter == "S")))))) U (letter == "D")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D / T Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "P") || (false R ((letter == "A") && (!X (true U (letter == "N")) || X (!(letter == "N") U ((letter == "N") && (true U (letter == "Z")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O / Q P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "F") && (!!(letter == "K") || (!(letter == "X") W ((letter == "L") || (letter == "K"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(letter == "R") W (letter == "E"))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M / T Q R]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "T")) || (!(letter == "T") U (((letter == "G") && !(letter == "T")) && X (!(letter == "T") U (letter == "V")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F / T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "R") && (!!(letter == "O") || (!(letter == "Q") W ((letter == "N") || (letter == "O"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "N") && (!X (true U (letter == "L")) || X (true U ((letter == "L") && (true U (letter == "W")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "G") && (!!(letter == "C") || (!(letter == "Y") W ((letter == "B") || (letter == "C"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K N J / Z - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 6
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '((false R !(letter == "S")) || (!(letter == "S") U ((letter == "S") && (!(true U (letter == "W")) || (!(letter == "W") U (((letter == "Q") && !(letter == "W")) && X (!(letter == "W") U (letter == "A"))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O I N N E G J M C / Q P P Q V S Z S P W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "R") || ((!(((letter == "T") && !(letter == "M")) && X (!(letter == "M") U ((letter == "V") && !(letter == "M")))) U ((letter == "M") || (letter == "C"))) || (false R !((letter == "T") && X (true U (letter == "V")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O I N N E G J H L L O O E / Q P P Q V S Z S X V R Q T V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "Y")) || ((!(letter == "N") || (!(letter == "Y") U ((((letter == "R") && !(letter == "Y")) && !(letter == "V")) && X ((!(letter == "Y") && !(letter == "V")) U (letter == "S"))))) U (letter == "Y")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O I N L M A / Q P P Q T Q Y]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "L")) || ((!(letter == "D") || (!(letter == "L") U ((letter == "Y") && !(letter == "L")))) U (letter == "L")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O I N N G M D M L / Q P P Q V P T R T P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "C")) || ((!(letter == "D") || (!(letter == "C") U ((((letter == "X") && !(letter == "C")) && !(letter == "T")) && X ((!(letter == "C") && !(letter == "T")) U (letter == "U"))))) U (letter == "C")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O I N N G M D M I C / Q P P Q V P T R T R Y]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(!(true U (letter == "F")) || ((!(letter == "A") || (!(letter == "F") U (((letter == "T") && !(letter == "F")) && X (!(letter == "F") U (letter == "U"))))) U (letter == "F")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J O I N L M A F / Q P P Q T Q Y -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O I N L M A F / Q P P Q T Q Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 7
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(((letter == "A") && !(letter == "I")) && (true U (letter == "I"))) || (!(letter == "R") U ((letter == "M") || (letter == "I")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|F D B M A E B F I / T Q Q Q T R - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D B M A E B F I / T Q Q Q T R - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 8
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(((letter == "A") && !(letter == "I")) && (true U (letter == "I"))) || (!(letter == "R") U ((letter == "M") || (letter == "I")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|F D B M A E J G J I / T Q Q Q T R P V - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D B M A E J G J I / T Q Q Q T R P V - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 9
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(((letter == "A") && !(letter == "I")) && (true U (letter == "I"))) || (!(letter == "R") U ((letter == "M") || (letter == "I")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|F D B M A D L L B F I / T Q Q Q T V V R T - S]
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D B M A D L L B F I / T Q Q Q T V V R T - S]
+[main] INFO de.learnlib.util.Experiment - Starting round 10
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(((letter == "A") && !(letter == "I")) && (true U (letter == "I"))) || (!(letter == "R") U ((letter == "M") || (letter == "I")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D B M A D L L B I / T Q Q Q T V V R T S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(!(true U (letter == "O")) || ((!(letter == "G") || (!(letter == "O") U ((((letter == "X") && !(letter == "O")) && !(letter == "W")) && X ((!(letter == "O") && !(letter == "W")) U (letter == "R"))))) U (letter == "O")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E L G O / Q Q Z - V]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L G O / Q Q Z - V]
+[main] INFO de.learnlib.util.Experiment - Starting round 11
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(!(true U (letter == "O")) || ((!(letter == "G") || (!(letter == "O") U ((((letter == "X") && !(letter == "O")) && !(letter == "W")) && X ((!(letter == "O") && !(letter == "W")) U (letter == "R"))))) U (letter == "O")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|F D M G D O / T Q R S R -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G D O / T Q R S R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 12
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "O")) || ((!(letter == "G") || (!(letter == "O") U ((((letter == "X") && !(letter == "O")) && !(letter == "W")) && X ((!(letter == "O") && !(letter == "W")) U (letter == "R"))))) U (letter == "O")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M G O / T Q R S T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(!(true U (letter == "F")) || ((!(letter == "A") || (!(letter == "F") U (((letter == "T") && !(letter == "F")) && X (!(letter == "F") U (letter == "U"))))) U (letter == "F")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E A C F / Q Q W - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E A C F / Q Q W - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 13
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(!(true U (letter == "F")) || ((!(letter == "A") || (!(letter == "F") U (((letter == "T") && !(letter == "F")) && X (!(letter == "F") U (letter == "U"))))) U (letter == "F")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E L A N L F / Q Q Z R Z - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A N L F / Q Q Z R Z - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 14
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(((letter == "S") && !(letter == "K")) && (true U (letter == "K"))) || (!(letter == "Y") U ((letter == "F") || (letter == "K")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E I C M D C I E E L A O K / Q Q Y P - - - - - - - X R -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C M D C I E E L A O K / Q Q Y P - - - - - - - X R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 15
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(((letter == "S") && !(letter == "K")) && (true U (letter == "K"))) || (!(letter == "Y") U ((letter == "F") || (letter == "K")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|F D M G D D C I E E L A O K / T Q R S R Y - - Z - - - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G D D C I E E L A O K / T Q R S R Y - - Z - - - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 16
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(((letter == "S") && !(letter == "K")) && (true U (letter == "K"))) || (!(letter == "Y") U ((letter == "F") || (letter == "K")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E L E I D G B C I E E L A O K / Q Q Z S Y P - - - - - - - - Q -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L E I D G B C I E E L A O K / Q Q Z S Y P - - - - - - - - Q -]
+[main] INFO de.learnlib.util.Experiment - Starting round 17
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(((letter == "S") && !(letter == "K")) && (true U (letter == "K"))) || (!(letter == "Y") U ((letter == "F") || (letter == "K")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E L E I E G B M E L A O K / Q Q Z S Y V - - - S W - V -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L E I E G B M E L A O K / Q Q Z S Y V - - - S W - V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 18
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(((letter == "S") && !(letter == "K")) && (true U (letter == "K"))) || (!(letter == "Y") U ((letter == "F") || (letter == "K")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E L E I E E E E L A O K / Q Q Z S Y V S S Q Z R R -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L E I E E E E L A O K / Q Q Z S Y V S S Q Z R R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 19
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U ((letter == "Q") && X (true U (letter == "S")))) || (!(letter == "Q") U (letter == "I")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M G / T Q R S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "G")) || ((!(letter == "A") || (!(letter == "G") U (((letter == "R") && !(letter == "G")) && X (!(letter == "G") U (letter == "S"))))) U (letter == "G")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L A I G / Q Q Z R R X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "L")) || (((letter == "I") && (!X (!(letter == "L") U (letter == "H")) || X (!(letter == "L") U ((letter == "H") && (true U (letter == "V")))))) U (letter == "L")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L / Q Q Z]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(!(true U (letter == "E")) || ((!(letter == "F") || (!(letter == "E") U (((letter == "Y") && !(letter == "E")) && X (!(letter == "E") U (letter == "Q"))))) U (letter == "E")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F A I B E / Z Y T Z - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I B E / Z Y T Z - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 20
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "E")) || ((!(letter == "F") || (!(letter == "E") U (((letter == "Y") && !(letter == "E")) && X (!(letter == "E") U (letter == "Q"))))) U (letter == "E")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F A I D E / Z Y T Z S Y]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F I O E N G M D / Z Y Y - - - - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I O E N G M D / Z Y Y - - - - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 21
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F I C J H L N D / Z Y Y T S - - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J H L N D / Z Y Y T S - - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 22
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F M O E N G M D / Z Y Z P - - - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M O E N G M D / Z Y Z P - - - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 23
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F M O B A N D / Z Y Z P - - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M O B A N D / Z Y Z P - - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 24
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F M O I B N D / Z Y Z P W - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M O I B N D / Z Y Z P W - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 25
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F M L J H L N D / Z Y Z X S - - V -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M L J H L N D / Z Y Z X S - - V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 26
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F A I O E A N D / Z Y T Z S V - - X]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I O E A N D / Z Y T Z S V - - X]
+[main] INFO de.learnlib.util.Experiment - Starting round 27
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F M L J N C N G D / Z Y Z X S V W - S -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M L J N C N G D / Z Y Z X S V W - S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 28
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F M L J N A I D / Z Y Z X S V Y Z -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M L J N A I D / Z Y Z X S V Y Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 29
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F I C E G C C N D / Z Y Y T P - - - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C E G C C N D / Z Y Y T P - - - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 30
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F I C E I B N B D / Z Y Y T P R - - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C E I B N B D / Z Y Y T P R - - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 31
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F M L A N G J A D / Z Y Z X T R - - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M L A N G J A D / Z Y Z X T R - - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 32
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F A I J N N J G D / Z Y T Z W - - - - Y]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I J N N J G D / Z Y T Z W - - - - Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 33
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F I C E I M N G M D / Z Y Y T P R P V - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C E I M N G M D / Z Y Y T P R P V - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 34
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F I C J O E N G M D / Z Y Y T S V - W T - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J O E N G M D / Z Y Y T S V - W T - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 35
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F I C J O M O N D / Z Y Y T S V W - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J O M O N D / Z Y Y T S V W - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 36
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F I C J O N G A C D / Z Y Y T S V W T Y T S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "D")) || ((!(letter == "G") || (!(letter == "D") U (((letter == "P") && !(letter == "D")) && X (!(letter == "D") U (letter == "S"))))) U (letter == "D")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E I C G J D / Q Q Y P V V Z]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "H") || ((!(letter == "D") || (!(letter == "C") U (((letter == "Y") && !(letter == "C")) && X (!(letter == "C") U (letter == "S"))))) U ((letter == "C") || (false R (!(letter == "D") || ((letter == "Y") && X (true U (letter == "S")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O I N N E G J H L D N C / Q P P Q V S Z S X V S V X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U ((letter == "S") && X (true U (letter == "X")))) || (!(letter == "S") U (letter == "Z")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M G B / T Q R S X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!((letter == "L") && (true U (letter == "E"))) || ((!(letter == "B") || (!(letter == "E") U ((((letter == "W") && !(letter == "E")) && !(letter == "S")) && X ((!(letter == "E") && !(letter == "S")) U (letter == "Z"))))) U (letter == "E"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E I C N L B E / Q Q Y P R - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C N L B E / Q Q Y P R - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 37
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!((letter == "L") && (true U (letter == "E"))) || ((!(letter == "B") || (!(letter == "E") U ((((letter == "W") && !(letter == "E")) && !(letter == "S")) && X ((!(letter == "E") && !(letter == "S")) U (letter == "Z"))))) U (letter == "E"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E I C A L B E / Q Q Y P X S - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C A L B E / Q Q Y P X S - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 38
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!((letter == "L") && (true U (letter == "E"))) || ((!(letter == "B") || (!(letter == "E") U ((((letter == "W") && !(letter == "E")) && !(letter == "S")) && X ((!(letter == "E") && !(letter == "S")) U (letter == "Z"))))) U (letter == "E"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E L A O B N E / Q Q Z R R Q - T]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A O B N E / Q Q Z R R Q - T]
+[main] INFO de.learnlib.util.Experiment - Starting round 39
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "L") && (true U (letter == "E"))) || ((!(letter == "B") || (!(letter == "E") U ((((letter == "W") && !(letter == "E")) && !(letter == "S")) && X ((!(letter == "E") && !(letter == "S")) U (letter == "Z"))))) U (letter == "E"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L A O B E / Q Q Z R R Q T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "I") && (true U (letter == "J"))) || (!(letter == "P") U ((letter == "J") || (((letter == "S") && !(letter == "P")) && X (!(letter == "P") U (letter == "M")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E I C G J / Q Q Y P V V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U ((letter == "X") && X (true U (letter == "P")))) || (!(letter == "X") U (letter == "V")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M G O D B / T Q R S T X P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '((false R !(letter == "Y")) || (!(letter == "Y") U ((letter == "Y") && (!(true U ((letter == "Q") && X (true U (letter == "V")))) || (!(letter == "Q") U (letter == "D"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J O E N N N / Q P Y Y Q -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O E N N N / Q P Y Y Q -]
+[main] INFO de.learnlib.util.Experiment - Starting round 40
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '((false R !(letter == "Y")) || (!(letter == "Y") U ((letter == "Y") && (!(true U ((letter == "Q") && X (true U (letter == "V")))) || (!(letter == "Q") U (letter == "D"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F M O I J M / Z Y Z P W Q V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "W") || (!(true U (letter == "X")) || (!(letter == "X") U ((letter == "R") || (((letter == "N") && !(letter == "X")) && X (!(letter == "X") U (letter == "A"))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F A I O D L / Z Y T Z S W X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "W") || (false R (!(letter == "O") || ((letter == "Z") && X (true U (letter == "T")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J O C A E O / Q P Y Z W -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O C A E O / Q P Y Z W -]
+[main] INFO de.learnlib.util.Experiment - Starting round 41
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "W") || (false R (!(letter == "O") || ((letter == "Z") && X (true U (letter == "T")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F A I J O / Z Y T Z W Z]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "V") || (((letter == "J") && (!X (!(letter == "H") U (letter == "A")) || X (!(letter == "H") U ((letter == "A") && (true U (letter == "P")))))) U ((letter == "H") || (false R ((letter == "J") && (!X (!(letter == "H") U (letter == "A")) || X (!(letter == "H") U ((letter == "A") && (true U (letter == "P")))))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I / Y V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(letter == "S") W (letter == "R"))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L E / Q Q Z S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "Z") || (false R (!(letter == "E") || (((letter == "R") && !(letter == "X")) && X (!(letter == "X") U (letter == "Q")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L E / Q Q Z S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "V") || (false R (!(letter == "H") || ((letter == "P") && X (true U (letter == "R")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O I N N E G J H / Q P P Q V S Z S X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '((false R !(letter == "Q")) || (!(letter == "Q") U ((letter == "Q") && (!(true U ((letter == "R") && X (true U (letter == "S")))) || (!(letter == "R") U (letter == "X"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M G / T Q R S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "M")) || ((!(letter == "I") || (!(letter == "M") U ((letter == "R") && !(letter == "M")))) U (letter == "M")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O I N L M / Q P P Q T Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "C")) || ((!(letter == "D") || (!(letter == "C") U ((letter == "P") && !(letter == "C")))) U (letter == "C")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D B G C / T Q Q Q Y]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(((letter == "H") && !(letter == "I")) && (true U (letter == "I"))) || (!(letter == "Y") U ((letter == "B") || (letter == "I")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O I N N E G J H O D B I / Q P P Q V S Z S X Q Y T S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "M") && (true U (letter == "N"))) || ((!(letter == "A") || (!(letter == "N") U ((((letter == "R") && !(letter == "N")) && !(letter == "T")) && X ((!(letter == "N") && !(letter == "T")) U (letter == "X"))))) U (letter == "N"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F M L A N / Z Y Z X T R]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!((letter == "F") && (true U (letter == "B"))) || (!(letter == "P") U ((letter == "B") || (((letter == "S") && !(letter == "P")) && X (!(letter == "P") U (letter == "H")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F I C E M J B / Z Y Y T P Q V -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C E M J B / Z Y Y T P Q V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 42
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "F") && (true U (letter == "B"))) || (!(letter == "P") U ((letter == "B") || (((letter == "S") && !(letter == "P")) && X (!(letter == "P") U (letter == "H")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F M O I J C B / Z Y Z P W Q V X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!((letter == "C") && (true U (letter == "N"))) || ((!(letter == "E") || (!(letter == "N") U (((letter == "S") && !(letter == "N")) && X (!(letter == "N") U (letter == "R"))))) U (letter == "N"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E L O C E N / Q Q Z V - R -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L O C E N / Q Q Z V - R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 43
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!((letter == "C") && (true U (letter == "N"))) || ((!(letter == "E") || (!(letter == "N") U (((letter == "S") && !(letter == "N")) && X (!(letter == "N") U (letter == "R"))))) U (letter == "N"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E L C O E N / Q Q Z V R - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C O E N / Q Q Z V R - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 44
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "C") && (true U (letter == "N"))) || ((!(letter == "E") || (!(letter == "N") U (((letter == "S") && !(letter == "N")) && X (!(letter == "N") U (letter == "R"))))) U (letter == "N"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L C E M G N / Q Q Z V Q S X Z]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(!(true U (letter == "C")) || (!(((letter == "S") && !(letter == "C")) && X (!(letter == "C") U ((letter == "R") && !(letter == "C")))) U ((letter == "C") || (letter == "F"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E L E I O I M G N C / Q Q Z S Y V - Q - - P]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L E I O I M G N C / Q Q Z S Y V - Q - - P]
+[main] INFO de.learnlib.util.Experiment - Starting round 45
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "C")) || (!(((letter == "S") && !(letter == "C")) && X (!(letter == "C") U ((letter == "R") && !(letter == "C")))) U ((letter == "C") || (letter == "F"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L E I O M L O C / Q Q Z S Y V Q R P Y]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '((false R !(letter == "K")) || (!(letter == "K") U ((letter == "K") && (!(true U (letter == "W")) || (!(letter == "W") U (((letter == "T") && !(letter == "W")) && X (!(letter == "W") U (letter == "Y"))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F A I J / Z Y T Z W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "P") && (true U (letter == "O"))) || (!(letter == "R") U ((letter == "O") || (((letter == "C") && !(letter == "R")) && X (!(letter == "R") U (letter == "N")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E I C N D O / Q Q Y P R V V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!((letter == "P") && (true U (letter == "W"))) || (!(((letter == "T") && !(letter == "W")) && X (!(letter == "W") U ((letter == "Z") && !(letter == "W")))) U ((letter == "W") || (letter == "R")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J O E N N A I J / Q P Y Y Q - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O E N N A I J / Q P Y Y Q - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 46
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!((letter == "P") && (true U (letter == "W"))) || (!(((letter == "T") && !(letter == "W")) && X (!(letter == "W") U ((letter == "Z") && !(letter == "W")))) U ((letter == "W") || (letter == "R")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J O I N L E L G J / Q P P Q T T Z V -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O I N L E L G J / Q P P Q T T Z V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 47
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "P") && (true U (letter == "W"))) || (!(((letter == "T") && !(letter == "W")) && X (!(letter == "W") U ((letter == "Z") && !(letter == "W")))) U ((letter == "W") || (letter == "R")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O I N L E L A / Q P P Q T T Z W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "O") && (true U (letter == "E"))) || ((!(letter == "J") || (!(letter == "E") U ((((letter == "P") && !(letter == "E")) && !(letter == "Z")) && X ((!(letter == "E") && !(letter == "Z")) U (letter == "T"))))) U (letter == "E"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F M O I C J E / Z Y Z P W T R X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "X")) || (!(((letter == "W") && !(letter == "X")) && X (!(letter == "X") U ((letter == "Q") && !(letter == "X")))) U ((letter == "X") || (letter == "T"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F M O I J C B / Z Y Z P W Q V X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "S") || (((letter == "M") && (!X (!(letter == "G") U (letter == "F")) || X (!(letter == "G") U ((letter == "F") && (true U (letter == "W")))))) U ((letter == "G") || (false R ((letter == "M") && (!X (!(letter == "G") U (letter == "F")) || X (!(letter == "G") U ((letter == "F") && (true U (letter == "W")))))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M G / T Q R S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "A")) || (((letter == "L") && (!X (!(letter == "A") U (letter == "J")) || X (!(letter == "A") U ((letter == "J") && (true U (letter == "X")))))) U (letter == "A")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E A / Q Q W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "Q") || (!(true U (letter == "Z")) || (!(letter == "Z") U ((letter == "X") || (((letter == "H") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "U"))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L / Q Q Z]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(((letter == "X") && !(letter == "T")) && (true U (letter == "T"))) || (!(letter == "Y") U ((letter == "V") || (letter == "T")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|F D M G B C A J / T Q R S X Y - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G B C A J / T Q R S X Y - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 48
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(((letter == "X") && !(letter == "T")) && (true U (letter == "T"))) || (!(letter == "Y") U ((letter == "V") || (letter == "T")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E I B N N M N / Q Q Y X Y - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B N N M N / Q Q Y X Y - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 49
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(((letter == "X") && !(letter == "T")) && (true U (letter == "T"))) || (!(letter == "Y") U ((letter == "V") || (letter == "T")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F I C D I O E L / Z Y Y T X Y T - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C D I O E L / Z Y Y T X Y T - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 50
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(((letter == "X") && !(letter == "T")) && (true U (letter == "T"))) || (!(letter == "Y") U ((letter == "V") || (letter == "T")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F I C D I O / Z Y Y T X Y T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "J") || ((!(letter == "A") || (!(letter == "B") U ((((letter == "R") && !(letter == "B")) && !(letter == "W")) && X ((!(letter == "B") && !(letter == "W")) U (letter == "V"))))) U ((letter == "B") || (false R (!(letter == "A") || (((letter == "R") && !(letter == "W")) && X (!(letter == "W") U (letter == "V")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J O C A B / Q P Y Z -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O C A B / Q P Y Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 51
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "J") || ((!(letter == "A") || (!(letter == "B") U ((((letter == "R") && !(letter == "B")) && !(letter == "W")) && X ((!(letter == "B") && !(letter == "W")) U (letter == "V"))))) U ((letter == "B") || (false R (!(letter == "A") || (((letter == "R") && !(letter == "W")) && X (!(letter == "W") U (letter == "V")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L A O B / Q Q Z R R Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "T")) || ((!(letter == "H") || (!(letter == "T") U ((((letter == "W") && !(letter == "T")) && !(letter == "Y")) && X ((!(letter == "T") && !(letter == "Y")) U (letter == "R"))))) U (letter == "T")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O I N N E G J H B / Q P P Q V S Z S X T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(((letter == "Y") && !(letter == "W")) && (true U (letter == "W"))) || ((!(letter == "H") || (!(letter == "W") U ((letter == "S") && !(letter == "W")))) U (letter == "W"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|F D B G C H G / T Q Q Q Y - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D B G C H G / T Q Q Q Y - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 52
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(((letter == "Y") && !(letter == "W")) && (true U (letter == "W"))) || ((!(letter == "H") || (!(letter == "W") U ((letter == "S") && !(letter == "W")))) U (letter == "W"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M G B C H G / T Q R S X Y V W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "B") || ((!(((letter == "V") && !(letter == "J")) && X (!(letter == "J") U ((letter == "W") && !(letter == "J")))) U ((letter == "J") || (letter == "Y"))) || (false R !((letter == "V") && X (true U (letter == "W")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|K F A I O A B D M / Z Y T Z S R V T Z]
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I O A B D M / Z Y T Z S R V T Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 53
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(letter == "B") || ((!(((letter == "V") && !(letter == "J")) && X (!(letter == "J") U ((letter == "W") && !(letter == "J")))) U ((letter == "J") || (letter == "Y"))) || (false R !((letter == "V") && X (true U (letter == "W")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E I B O A N O C / Q Q Y X Q Z - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B O A N O C / Q Q Y X Q Z - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 54
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "B") || ((!(((letter == "V") && !(letter == "J")) && X (!(letter == "J") U ((letter == "W") && !(letter == "J")))) U ((letter == "J") || (letter == "Y"))) || (false R !((letter == "V") && X (true U (letter == "W")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D B M A D O E O C / T Q Q Q T V Q V Q W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!((letter == "N") && (true U (letter == "X"))) || (!(letter == "Y") U ((letter == "X") || (((letter == "F") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "S")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E L A N G A C / Q Q Z R Z Y - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A N G A C / Q Q Z R Z Y - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 55
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!((letter == "N") && (true U (letter == "X"))) || (!(letter == "Y") U ((letter == "X") || (((letter == "F") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "S")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E I B N L C N / Q Q Y X Y R - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B N L C N / Q Q Y X Y R - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 56
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!((letter == "N") && (true U (letter == "X"))) || (!(letter == "Y") U ((letter == "X") || (((letter == "F") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "S")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|L I E N N M N J N C / Y V Y T - - - - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E N N M N J N C / Y V Y T - - - - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 57
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "N") && (true U (letter == "X"))) || (!(letter == "Y") U ((letter == "X") || (((letter == "F") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "S")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I E J N B D C / Y V Y X Z Y P X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!(((letter == "E") && !(letter == "P")) && (true U (letter == "P"))) || (!(letter == "R") U ((letter == "G") || (letter == "P")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E L O E L / Q Q Z V R -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L O E L / Q Q Z V R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 58
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(((letter == "E") && !(letter == "P")) && (true U (letter == "P"))) || (!(letter == "R") U ((letter == "G") || (letter == "P")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D B M A E J / T Q Q Q T R P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!((letter == "L") && (true U (letter == "G"))) || (!(((letter == "W") && !(letter == "G")) && X (!(letter == "G") U ((letter == "Y") && !(letter == "G")))) U ((letter == "G") || (letter == "Q")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|J E L O E D C N G / Q Q Z V R Y W - P]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L O E D C N G / Q Q Z V R Y W - P]
+[main] INFO de.learnlib.util.Experiment - Starting round 59
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!((letter == "L") && (true U (letter == "G"))) || (!(((letter == "W") && !(letter == "G")) && X (!(letter == "G") U ((letter == "Y") && !(letter == "G")))) U ((letter == "G") || (letter == "Q")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|L I L C M N I E J G / Y V Z W P - - R - Q]
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L C M N I E J G / Y V Z W P - - R - Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 60
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!((letter == "L") && (true U (letter == "G"))) || (!(((letter == "W") && !(letter == "G")) && X (!(letter == "G") U ((letter == "Y") && !(letter == "G")))) U ((letter == "G") || (letter == "Q")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|L I E J N I N L M A G / Y V Y X Z W Q - - - -]
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E J N I N L M A G / Y V Y X Z W Q - - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 61
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample found for property: '(false R (!((letter == "L") && (true U (letter == "G"))) || (!(((letter == "W") && !(letter == "G")) && X (!(letter == "G") U ((letter == "Y") && !(letter == "G")))) U ((letter == "G") || (letter == "Q")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Spurious counterexample: Query[ε|L I E J N I I E M M G / Y V Y X Z W P X - - R]
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E J N I I E M M G / Y V Y X Z W P X - - R]
+[main] INFO de.learnlib.util.Experiment - Starting round 62
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "L") && (true U (letter == "G"))) || (!(((letter == "W") && !(letter == "G")) && X (!(letter == "G") U ((letter == "Y") && !(letter == "G")))) U ((letter == "G") || (letter == "Q")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I E J N I I E E J G / Y V Y X Z W P X Y X S]
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B A A G J C J I J / Q Q Y X R - Z - - - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 63
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M O I M J J C J D J / Z Y Z P W T Z W - - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 64
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C G J D N M / Q Q Y P V V Z - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 65
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O C A E M N / Q P Y Z W P -]
+[main] INFO de.learnlib.util.Experiment - Starting round 66
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O C A E M L / Q P Y Z W P -]
+[main] INFO de.learnlib.util.Experiment - Starting round 67
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A I A / Q Q Z R R X]
+[main] INFO de.learnlib.util.Experiment - Starting round 68
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C A L D I / Q Q Y P X S P W]
+[main] INFO de.learnlib.util.Experiment - Starting round 69
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A I G L J / Q Q Z R R X S V]
+[main] INFO de.learnlib.util.Experiment - Starting round 70
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O C A M N G J / Q P Y Z V - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 71
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C A L N N / Q Q Y P X S V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 72
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L O E A J A L J / Q Q Z V R R X - V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 73
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B C M E J J / Q Q Y X Q S X - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 74
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C E M E J A J / Q Q Z V Q S S X - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 75
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C N D G N / Q Q Y P R V Z Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 76
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L O E A L N / Q Q Z V R R Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 77
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A I A B J / Q Q Z R R X S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 78
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O C A M M C / Q P Y Z V W -]
+[main] INFO de.learnlib.util.Experiment - Starting round 79
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M O I M A O / Z Y Z P W T Z S]
+[main] INFO de.learnlib.util.Experiment - Starting round 80
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E N G D C / Y V Y T T P S]
+[main] INFO de.learnlib.util.Experiment - Starting round 81
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O E N N O G O / Q P Y Y Q V V Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 82
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E J N C A / Y V Y X Z T Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 83
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B C M A I A / Q Q Y X Q S X W Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 84
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O E N N M C / Q P Y Y Q Z P]
+[main] INFO de.learnlib.util.Experiment - Starting round 85
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D B G C E D / T Q Q Q Y S S]
+[main] INFO de.learnlib.util.Experiment - Starting round 86
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C N B J / Q Q Z V X - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 87
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C N A E C / Q Q Z V X R Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 88
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C N A E N M / Q Q Z V X R Z - V]
+[main] INFO de.learnlib.util.Experiment - Starting round 89
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C N M J C / Q Q Z V X Q W -]
+[main] INFO de.learnlib.util.Experiment - Starting round 90
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E J N C A A / Y V Y X Z T Q Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 91
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B A I N L / Q Q Y X R T P V]
+[main] INFO de.learnlib.util.Experiment - Starting round 92
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A I A I A / Q Q Z R R X T V]
+[main] INFO de.learnlib.util.Experiment - Starting round 93
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A O B A C / Q Q Z R R Q Q V]
+[main] INFO de.learnlib.util.Experiment - Starting round 94
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C N O I J / Q Q Z V X P T R]
+[main] INFO de.learnlib.util.Experiment - Starting round 95
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L E B J / Y V Z Z Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 96
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C O L B J / Q Q Z V R - - Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 97
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C O M L J / Q Q Z V R Z - Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 98
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J A J C / Z Y Y T S T Y P]
+[main] INFO de.learnlib.util.Experiment - Starting round 99
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C O M M G / Q Q Z V R Z R V]
+[main] INFO de.learnlib.util.Experiment - Starting round 100
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D B G C E O L / T Q Q Q Y S X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 101
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L O E D C B / Q Q Z V R Y W P]
+[main] INFO de.learnlib.util.Experiment - Starting round 102
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C O J I / Q Q Z V R Y X]
+[main] INFO de.learnlib.util.Experiment - Starting round 103
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C O J I O / Q Q Z V R Y X V]
+[main] INFO de.learnlib.util.Experiment - Starting round 104
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L E B M C / Y V Z Z Y S W]
+[main] INFO de.learnlib.util.Experiment - Starting round 105
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B C M E O / Q Q Y X Q S X Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 106
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L E B E N M / Y V Z Z Y Y - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 107
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J O M J A D I / Z Y Y T S V W X Y V T]
+[main] INFO de.learnlib.util.Experiment - Starting round 108
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L C M E D I / Y V Z W P R T S]
+[main] INFO de.learnlib.util.Experiment - Starting round 109
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B O A D A / Q Q Y X Q Z S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 110
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I D N / Z Y T Z S S]
+[main] INFO de.learnlib.util.Experiment - Starting round 111
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I D N A / Z Y T Z S S W]
+[main] INFO de.learnlib.util.Experiment - Starting round 112
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D B G C E D N M / T Q Q Q Y S S - Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 113
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O I N L M A G J O N D A / Q P P Q T Q Y V W Z R W T]
+[main] INFO de.learnlib.util.Experiment - Starting round 114
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I J D N M / Z Y T Z W Y - W]
+[main] INFO de.learnlib.util.Experiment - Starting round 115
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B N L B A / Q Q Y X Y R Q V]
+[main] INFO de.learnlib.util.Experiment - Starting round 116
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I O D O / Z Y T Z S W -]
+[main] INFO de.learnlib.util.Experiment - Starting round 117
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M L A N B / Z Y Z X T R V]
+[main] INFO de.learnlib.util.Experiment - Starting round 118
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M L A N B L / Z Y Z X T R V Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 119
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J O M J D C / Z Y Y T S V W X Y V]
+[main] INFO de.learnlib.util.Experiment - Starting round 120
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B A G A E L O J / Q Q Y X R Z X V - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 121
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A N G G E L J / Q Q Z R Z Y R V Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 122
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J O M J D E B D N G / Z Y Y T S V W X Y V X Z P -]
+[main] INFO de.learnlib.util.Experiment - Starting round 123
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J A J C N D B / Z Y Y T S T Y P W S Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 124
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I D N A D L / Z Y T Z S S W V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 125
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C E A C L / Q Q Z V Q Q Z Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 126
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L E I D O C M / Q Q Z S Y P Q T R]
+[main] INFO de.learnlib.util.Experiment - Starting round 127
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O I N L C L / Q P P Q T W Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 128
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O I N L M A G J C J I C N / Q P P Q T Q Y V W R X Q V R]
+[main] INFO de.learnlib.util.Experiment - Starting round 129
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C D A C A / Z Y Y T X S Q R]
+[main] INFO de.learnlib.util.Experiment - Starting round 130
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C E A L A / Q Q Z V Q Q X Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 131
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I J O C L / Z Y T Z W Z S S]
+[main] INFO de.learnlib.util.Experiment - Starting round 132
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L E B C A / Y V Z Z Y X W]
+[main] INFO de.learnlib.util.Experiment - Starting round 133
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L E B C A L / Y V Z Z Y X W Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 134
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J O M J D E B C A / Z Y Y T S V W X Y V X X R]
+[main] INFO de.learnlib.util.Experiment - Starting round 135
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J O M J D E L O I C A / Z Y Y T S V W X Y V Y W Q T Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 136
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O E B B L / Y V Z Y X Y P]
+[main] INFO de.learnlib.util.Experiment - Starting round 137
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A A B J / Y V Z Q R - T]
+[main] INFO de.learnlib.util.Experiment - Starting round 138
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A A I C / Y V Z Q R X Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 139
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A A J C J / Y V Z Q R T W -]
+[main] INFO de.learnlib.util.Experiment - Starting round 140
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A A I C G / Y V Z Q R X Q Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 141
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D B M G C B / T Q Q Q R S V]
+[main] INFO de.learnlib.util.Experiment - Starting round 142
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A C G J A / Y V Z Q R V T -]
+[main] INFO de.learnlib.util.Experiment - Starting round 143
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I J D J I / Z Y T Z W Y V Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 144
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O E J L / Y V Z Y P -]
+[main] INFO de.learnlib.util.Experiment - Starting round 145
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M O I C J A / Z Y Z P W T R R]
+[main] INFO de.learnlib.util.Experiment - Starting round 146
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M O I J J M / Z Y Z P W Q R R]
+[main] INFO de.learnlib.util.Experiment - Starting round 147
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C O M J L / Q Q Z V R Z Y V]
+[main] INFO de.learnlib.util.Experiment - Starting round 148
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A O J J N / Q Q Z R R Q T V]
+[main] INFO de.learnlib.util.Experiment - Starting round 149
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A O O J O / Y V Z Q Z V R S]
+[main] INFO de.learnlib.util.Experiment - Starting round 150
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C N A H A / Q Q Z V X R X V]
+[main] INFO de.learnlib.util.Experiment - Starting round 151
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A A N J C / Y V Z Q R T V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 152
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E J N I O B / Y V Y X Z W V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 153
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C E M J L / Z Y Y T P Q V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 154
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO nl.utwente.fmt.rers.TimeOutEQOracle - Timeout reached.
+[main] INFO nl.utwente.fmt.rers.TimeOutEQOracle - Not using counter example!
+[main] INFO nl.utwente.fmt.rers.TimeOutEQOracle - Useless equivalence queries: 5855
+[main] INFO nl.utwente.fmt.rers.TimeOutEQOracle - Useless equivalence symbols: 41837
+[main] INFO nl.utwente.fmt.rers.TimeOutEQOracle - Real useless queries: 5855
+[main] INFO nl.utwente.fmt.rers.TimeOutEQOracle - Real useless symbols: 41837
+[main] INFO nl.utwente.fmt.rers.Main - final states: 347
+[main] INFO nl.utwente.fmt.rers.Main - Final learning queries: 53220
+[main] INFO nl.utwente.fmt.rers.Main - Properties disproved: 65

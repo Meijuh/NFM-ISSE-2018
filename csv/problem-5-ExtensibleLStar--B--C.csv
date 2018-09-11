@@ -1,0 +1,5 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+5,ExtensibleLStar,buchi,cex-first,4,221,472033,378060,0,0,780059863,93973,53060,53056,0,0,67144,4,1696,25.000000,1
+5,ExtensibleLStar,buchi,cex-first,17,221,604708,378060,0,0,1880588300,226648,53066,53056,0,0,166996,10,808,25.000000,1
+5,ExtensibleLStar,buchi,cex-first,23,221,715245,378060,0,0,2797136139,337185,53071,53056,0,0,249874,15,22,25.000000,1
+5,ExtensibleLStar,buchi,cex-first,34,221,869984,378060,0,0,4083150026,491924,53078,53056,0,0,367643,22,3497,25.000000,1

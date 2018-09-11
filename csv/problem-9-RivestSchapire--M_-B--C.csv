@@ -1,0 +1,8 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+9,RivestSchapire,monitor-buchi,cex-first,4,1,21,20,0,1,0,0,22,21,0,1,0,0,1,45.000000,1
+9,RivestSchapire,monitor-buchi,cex-first,7,1,22,20,0,2,0,0,23,21,0,2,0,0,1,45.000000,1
+9,RivestSchapire,monitor-buchi,cex-first,10,4,418,404,0,12,225,2,173,165,0,7,90,1,2,45.000000,2
+9,RivestSchapire,monitor-buchi,cex-first,16,4,419,404,0,13,225,2,174,165,0,8,90,1,1,45.000000,2
+9,RivestSchapire,monitor-buchi,cex-first,17,4,420,404,0,14,225,2,175,165,0,9,90,1,1,45.000000,2
+9,RivestSchapire,monitor-buchi,cex-first,22,4,421,404,0,15,225,2,176,165,0,10,90,1,1,45.000000,2
+9,RivestSchapire,monitor-buchi,cex-first,1,116,189054,187545,0,153,377285,1356,23308,23272,0,27,26096,9,6,45.000000,10

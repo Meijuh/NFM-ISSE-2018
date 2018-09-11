@@ -1,0 +1,2 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+8,MalerPnueli,monitor-buchi,cex-first,3,58,48112795,48112426,0,5,7176,364,318789,318786,0,1,1596,2,5,40.000000,3

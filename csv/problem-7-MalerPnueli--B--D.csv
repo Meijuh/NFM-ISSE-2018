@@ -1,0 +1,2 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+7,MalerPnueli,buchi,disprove-first,52,113,12466654,12466440,0,0,2340247,214,244299,244296,0,0,244938,3,11,35.000000,4

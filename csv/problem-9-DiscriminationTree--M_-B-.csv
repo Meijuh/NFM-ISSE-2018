@@ -1,0 +1,2 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+9,DiscriminationTree,monitor-buchi,none,1,555,236870471,1010979,235859487,5,0,0,29572460,118665,29453794,1,0,0,5,45.000000,357

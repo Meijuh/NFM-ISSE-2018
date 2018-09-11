@@ -1,0 +1,7 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+9,KearnsVazirani,buchi,cex-first,15,69,330878,204991,0,0,282869919,141444,12112,12093,0,0,216421,20,26,45.000000,20
+9,KearnsVazirani,buchi,cex-first,32,69,330878,204991,0,0,356523433,141444,12112,12093,0,0,256784,20,27,45.000000,20
+9,KearnsVazirani,buchi,cex-first,36,69,330878,204991,0,0,356754099,141444,12112,12093,0,0,263102,20,341,45.000000,20
+9,KearnsVazirani,buchi,cex-first,69,69,330878,204991,0,0,478150123,141444,12112,12093,0,0,329250,20,341,45.000000,20
+9,KearnsVazirani,buchi,cex-first,84,69,330878,204991,0,0,525476990,141444,12112,12093,0,0,354956,20,55,45.000000,20
+9,KearnsVazirani,buchi,cex-first,97,69,330878,204991,0,0,621015393,141444,12112,12093,0,0,381065,20,32,45.000000,20

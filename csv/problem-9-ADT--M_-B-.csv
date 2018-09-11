@@ -1,0 +1,3 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+9,ADT,monitor-buchi,none,1,599,224763579,846901,223916673,5,0,0,27460748,57686,27403061,1,0,0,5,45.000000,245
+9,ADT,monitor-buchi,none,2,599,224763579,846901,223916673,5,689,0,27460748,57686,27403061,1,17,0,55,45.000000,245

@@ -1,0 +1,3 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+9,MalerPnueli,monitor-buchi,none,1,681,132616867,27869318,104747544,5,0,0,14151021,2329191,11821829,1,0,0,5,45.000000,27
+9,MalerPnueli,monitor-buchi,none,2,681,132616867,27869318,104747544,5,689,0,14151021,2329191,11821829,1,17,0,55,45.000000,27

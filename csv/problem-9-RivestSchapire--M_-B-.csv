@@ -1,0 +1,2 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+9,RivestSchapire,monitor-buchi,none,1,644,216761068,6837616,209923447,5,0,0,24058320,747278,23311041,1,0,0,5,45.000000,58

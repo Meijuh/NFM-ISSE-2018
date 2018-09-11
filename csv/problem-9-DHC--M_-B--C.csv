@@ -1,0 +1,2 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+9,DHC,monitor-buchi,cex-first,1,508,1553625,1553620,0,5,0,0,203222,203221,0,1,0,0,5,45.000000,1

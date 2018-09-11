@@ -1,0 +1,4 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+8,ADT,buchi,cex-first,3,160,10769676,10669154,0,0,4306353,100522,5137,5126,0,0,116964,11,292,40.000000,12
+8,ADT,buchi,cex-first,4,160,10769676,10669154,0,0,4306971,100522,5137,5126,0,0,116982,11,59,40.000000,12
+8,ADT,buchi,cex-first,5,161,10853529,10746592,0,0,4903101,106937,5183,5171,0,0,155401,12,75,40.000000,13

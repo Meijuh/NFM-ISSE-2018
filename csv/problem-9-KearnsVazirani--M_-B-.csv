@@ -1,0 +1,2 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+9,KearnsVazirani,monitor-buchi,none,1,566,220281361,1027692,219253664,5,0,0,28122688,137706,27984981,1,0,0,5,45.000000,391

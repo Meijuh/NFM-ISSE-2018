@@ -1,0 +1,2 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+9,RivestSchapire,buchi,cex-first,15,100,165592,151862,0,0,327451358,49755,18111,18103,0,0,149214,9,14,45.000000,9

@@ -1,0 +1,282 @@
+[main] INFO nl.utwente.fmt.rers.Main - hostname: ctit005.ewi.utwente.nl
+[main] INFO nl.utwente.fmt.rers.Main - commandline is: -c -t3600 -m25.0 -u20 5 MalerPnueli -M
+[main] INFO nl.utwente.fmt.rers.Main - multiplier is: 25.0
+[main] INFO nl.utwente.fmt.rers.Main - minimum unfolds is : 20
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #0: (false R (!(letter == "B") || (false R (!(letter == "F") || (((letter == "V") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "P")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #1: (false R (!(letter == "K") || ((!(letter == "F") || (!(letter == "P") U ((((letter == "X") && !(letter == "P")) && !(letter == "Q")) && X ((!(letter == "P") && !(letter == "Q")) U (letter == "Z"))))) U ((letter == "P") || (false R (!(letter == "F") || (((letter == "X") && !(letter == "Q")) && X (!(letter == "Q") U (letter == "Z")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #2: (false R (!((letter == "O") && (true U (letter == "K"))) || (!(((letter == "V") && !(letter == "K")) && X (!(letter == "K") U ((letter == "Q") && !(letter == "K")))) U ((letter == "K") || (letter == "B")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #3: (!(true U (letter == "A")) || (!(letter == "U") U ((letter == "S") || (letter == "A"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #4: (!(true U (letter == "C")) || ((!(letter == "D") || (!(letter == "C") U ((letter == "P") && !(letter == "C")))) U (letter == "C")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #5: (!(true U (letter == "C")) || (!(((letter == "S") && !(letter == "C")) && X (!(letter == "C") U ((letter == "R") && !(letter == "C")))) U ((letter == "C") || (letter == "F"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #6: (false R (!(letter == "Q") || (!(true U (letter == "Z")) || (!(letter == "Z") U ((letter == "X") || (((letter == "H") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "U"))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #7: ((false R !(letter == "G")) || (!(letter == "G") U ((letter == "G") && (!(true U ((letter == "S") && X (true U (letter == "X")))) || (!(letter == "S") U (letter == "F"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #8: (!(true U (letter == "I")) || ((!(letter == "O") || (!(letter == "I") U ((((letter == "T") && !(letter == "I")) && !(letter == "R")) && X ((!(letter == "I") && !(letter == "R")) U (letter == "Z"))))) U (letter == "I")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #9: (false R (!(letter == "N") || ((!(letter == "C") || (!(letter == "A") U (((letter == "R") && !(letter == "A")) && X (!(letter == "A") U (letter == "Q"))))) U ((letter == "A") || (false R (!(letter == "C") || ((letter == "R") && X (true U (letter == "Q")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #10: (false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #11: (false R (!(((letter == "A") && !(letter == "I")) && (true U (letter == "I"))) || (!(letter == "R") U ((letter == "M") || (letter == "I")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #12: (false R (!((letter == "L") && (true U (letter == "G"))) || (!(((letter == "W") && !(letter == "G")) && X (!(letter == "G") U ((letter == "Y") && !(letter == "G")))) U ((letter == "G") || (letter == "Q")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #13: (!(true U (letter == "F")) || (!(letter == "W") U ((letter == "F") || (((letter == "L") && !(letter == "W")) && X (!(letter == "W") U (letter == "X"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #14: (!(true U (letter == "Y")) || ((!(letter == "N") || (!(letter == "Y") U ((((letter == "R") && !(letter == "Y")) && !(letter == "V")) && X ((!(letter == "Y") && !(letter == "V")) U (letter == "S"))))) U (letter == "Y")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #15: (false R (!(letter == "K") || (true U (((letter == "V") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "T"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #16: (false R (!(letter == "U") || ((!(((letter == "Y") && !(letter == "R")) && X (!(letter == "R") U ((letter == "V") && !(letter == "R")))) U ((letter == "R") || (letter == "A"))) || (false R !((letter == "Y") && X (true U (letter == "V")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #17: (false R (!(letter == "A") || (false R (!(letter == "D") || (((letter == "U") && !(letter == "S")) && X (!(letter == "S") U (letter == "Y")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #18: ((false R !(letter == "Y")) || (!(letter == "Y") U ((letter == "Y") && (!(true U ((letter == "Q") && X (true U (letter == "V")))) || (!(letter == "Q") U (letter == "D"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #19: (false R ((letter == "K") && (!!(letter == "Z") || (!(letter == "S") W ((letter == "V") || (letter == "Z"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #20: (!(true U (letter == "E")) || ((!(letter == "F") || (!(letter == "E") U (((letter == "Y") && !(letter == "E")) && X (!(letter == "E") U (letter == "Q"))))) U (letter == "E")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #21: (false R (!(letter == "K") || (((letter == "G") && (!X (!(letter == "L") U (letter == "I")) || X (!(letter == "L") U ((letter == "I") && (true U (letter == "Y")))))) U ((letter == "L") || (false R ((letter == "G") && (!X (!(letter == "L") U (letter == "I")) || X (!(letter == "L") U ((letter == "I") && (true U (letter == "Y")))))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #22: (!(letter == "W") W (letter == "U"))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #23: (!(true U (letter == "E")) || ((!(letter == "L") || (!(letter == "E") U ((letter == "S") && !(letter == "E")))) U (letter == "E")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #24: (false R (!(letter == "B") || (false R (!(letter == "O") || (true U (letter == "S"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #25: ((false R !(letter == "Q")) || (!(letter == "Q") U ((letter == "Q") && (!(true U ((letter == "R") && X (true U (letter == "S")))) || (!(letter == "R") U (letter == "X"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #26: (false R ((letter == "N") && (!X (true U (letter == "M")) || X (true U ((letter == "M") && (true U (letter == "T")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #27: (!(true U (letter == "A")) || (!(letter == "Z") U ((letter == "A") || (((letter == "L") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "O"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #28: (false R (!(((letter == "I") && !(letter == "X")) && (true U (letter == "X"))) || ((!(letter == "N") || (!(letter == "X") U ((letter == "T") && !(letter == "X")))) U (letter == "X"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #29: (!(letter == "S") W (letter == "R"))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #30: (!(true U (letter == "X")) || (!(((letter == "W") && !(letter == "X")) && X (!(letter == "X") U ((letter == "Q") && !(letter == "X")))) U ((letter == "X") || (letter == "T"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #31: (!(letter == "P") W (letter == "A"))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #32: (!(true U (letter == "X")) || (!(letter == "X") U (((letter == "U") && !(letter == "X")) && X (!(letter == "X") U (letter == "F")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #33: (false R ((letter == "J") && (!X (true U (letter == "M")) || X (true U ((letter == "M") && (true U (letter == "P")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #34: (!(true U (letter == "D")) || ((!(letter == "G") || (!(letter == "D") U (((letter == "P") && !(letter == "D")) && X (!(letter == "D") U (letter == "S"))))) U (letter == "D")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #35: (!(true U (letter == "T")) || ((!(letter == "H") || (!(letter == "T") U ((((letter == "W") && !(letter == "T")) && !(letter == "Y")) && X ((!(letter == "T") && !(letter == "Y")) U (letter == "R"))))) U (letter == "T")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #36: (false R (!(letter == "Z") || (false R (!(letter == "E") || (((letter == "R") && !(letter == "X")) && X (!(letter == "X") U (letter == "Q")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #37: (!(true U (letter == "T")) || (!(letter == "T") U (((letter == "G") && !(letter == "T")) && X (!(letter == "T") U (letter == "V")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #38: (false R (!(letter == "J") || ((!(letter == "A") || (!(letter == "B") U ((((letter == "R") && !(letter == "B")) && !(letter == "W")) && X ((!(letter == "B") && !(letter == "W")) U (letter == "V"))))) U ((letter == "B") || (false R (!(letter == "A") || (((letter == "R") && !(letter == "W")) && X (!(letter == "W") U (letter == "V")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #39: (!(true U (letter == "D")) || ((!(letter == "E") || (!(letter == "D") U ((letter == "W") && !(letter == "D")))) U (letter == "D")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #40: (false R (!(letter == "U") || (false R (!(letter == "N") || (((letter == "X") && !(letter == "S")) && X (!(letter == "S") U (letter == "V")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #41: (false R (!((letter == "I") && (true U (letter == "K"))) || (!(letter == "S") U ((letter == "K") || (((letter == "W") && !(letter == "S")) && X (!(letter == "S") U (letter == "X")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #42: (false R (!(letter == "C") || (true U ((letter == "U") && X (true U (letter == "S"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #43: (false R (!((letter == "P") && (true U (letter == "W"))) || (!(((letter == "T") && !(letter == "W")) && X (!(letter == "W") U ((letter == "Z") && !(letter == "W")))) U ((letter == "W") || (letter == "R")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #44: (false R (!((letter == "O") && (true U (letter == "E"))) || ((!(letter == "J") || (!(letter == "E") U ((((letter == "P") && !(letter == "E")) && !(letter == "Z")) && X ((!(letter == "E") && !(letter == "Z")) U (letter == "T"))))) U (letter == "E"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #45: (false R (!(letter == "M") || (true U ((letter == "V") && X (true U (letter == "R"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #46: (!(true U (letter == "W")) || (!(letter == "W") U (((letter == "B") && !(letter == "W")) && X (!(letter == "W") U (letter == "E")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #47: (false R ((letter == "R") && (!!(letter == "M") || ((!(letter == "O") || (!(letter == "M") U ((letter == "X") && !(letter == "M")))) W (letter == "M")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #48: (false R (!(letter == "J") || (true U (letter == "V"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #49: (!(true U (letter == "D")) || (((letter == "M") && (!X (!(letter == "D") U (letter == "H")) || X (!(letter == "D") U ((letter == "H") && (true U (letter == "S")))))) U (letter == "D")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #50: ((false R !(letter == "R")) || (!(letter == "R") U ((letter == "R") && (!(true U (letter == "V")) || (!(letter == "V") U (((letter == "I") && !(letter == "V")) && X (!(letter == "V") U (letter == "O"))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #51: (!(true U (letter == "M")) || ((!(letter == "I") || (!(letter == "M") U ((letter == "R") && !(letter == "M")))) U (letter == "M")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #52: (false R (!(letter == "R") || ((!(((letter == "T") && !(letter == "M")) && X (!(letter == "M") U ((letter == "V") && !(letter == "M")))) U ((letter == "M") || (letter == "C"))) || (false R !((letter == "T") && X (true U (letter == "V")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #53: (false R (!(letter == "B") || ((!(((letter == "V") && !(letter == "J")) && X (!(letter == "J") U ((letter == "W") && !(letter == "J")))) U ((letter == "J") || (letter == "Y"))) || (false R !((letter == "V") && X (true U (letter == "W")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #54: (!(true U (letter == "D")) || (((letter == "G") && (!X (!(letter == "D") U (letter == "C")) || X (!(letter == "D") U ((letter == "C") && (true U (letter == "T")))))) U (letter == "D")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #55: (false R (!(letter == "R") || (false R (!(letter == "A") || ((letter == "Z") && X (true U (letter == "P")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #56: (false R (!(((letter == "S") && !(letter == "K")) && (true U (letter == "K"))) || (!(letter == "Y") U ((letter == "F") || (letter == "K")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #57: (false R (!((letter == "Q") && (true U (letter == "D"))) || (!(letter == "W") U ((letter == "D") || (((letter == "I") && !(letter == "W")) && X (!(letter == "W") U (letter == "M")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #58: (false R (!((letter == "Q") && (true U (letter == "Y"))) || (((letter == "A") && (!X (!(letter == "Y") U (letter == "O")) || X (!(letter == "Y") U ((letter == "O") && (true U (letter == "Z")))))) U (letter == "Y"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #59: (false R (!((letter == "P") && (true U (letter == "O"))) || (!(letter == "R") U ((letter == "O") || (((letter == "C") && !(letter == "R")) && X (!(letter == "R") U (letter == "N")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #60: (!(true U (letter == "L")) || ((!(letter == "D") || (!(letter == "L") U ((letter == "Y") && !(letter == "L")))) U (letter == "L")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #61: (false R ((letter == "Y") && (!!(letter == "M") || (!(letter == "Z") W ((letter == "C") || (letter == "M"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #62: (false R (!(((letter == "Y") && !(letter == "W")) && (true U (letter == "W"))) || ((!(letter == "H") || (!(letter == "W") U ((letter == "S") && !(letter == "W")))) U (letter == "W"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #63: (false R (!(((letter == "C") && !(letter == "H")) && (true U (letter == "H"))) || ((!(letter == "D") || (!(letter == "H") U ((letter == "V") && !(letter == "H")))) U (letter == "H"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #64: (false R (!(letter == "M") || (true U ((letter == "Z") && X (true U (letter == "R"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #65: (!(true U (letter == "B")) || ((!(letter == "A") || (!(letter == "B") U ((((letter == "V") && !(letter == "B")) && !(letter == "X")) && X ((!(letter == "B") && !(letter == "X")) U (letter == "P"))))) U (letter == "B")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #66: ((false R !(letter == "H")) || (!(letter == "H") U ((letter == "H") && (!(true U ((letter == "Z") && X (true U (letter == "X")))) || (!(letter == "Z") U (letter == "N"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #67: (!(true U ((letter == "Q") && X (true U (letter == "S")))) || (!(letter == "Q") U (letter == "I")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #68: (false R (!((letter == "I") && (true U (letter == "T"))) || ((!(letter == "K") || (!(letter == "T") U ((((letter == "X") && !(letter == "T")) && !(letter == "U")) && X ((!(letter == "T") && !(letter == "U")) U (letter == "Z"))))) U (letter == "T"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #69: (false R (!(((letter == "X") && !(letter == "T")) && (true U (letter == "T"))) || (!(letter == "Y") U ((letter == "V") || (letter == "T")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #70: (false R (!((letter == "L") && (true U (letter == "U"))) || (!(letter == "R") U ((letter == "U") || (((letter == "V") && !(letter == "R")) && X (!(letter == "R") U (letter == "F")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #71: (!(letter == "R") W (letter == "E"))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #72: (!(true U (letter == "U")) || ((!(letter == "C") || (!(letter == "U") U ((((letter == "R") && !(letter == "U")) && !(letter == "V")) && X ((!(letter == "U") && !(letter == "V")) U (letter == "W"))))) U (letter == "U")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #73: (false R (!(((letter == "E") && !(letter == "P")) && (true U (letter == "P"))) || (!(letter == "R") U ((letter == "G") || (letter == "P")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #74: (false R (!(letter == "C") || (true U (((letter == "T") && !(letter == "V")) && X (!(letter == "V") U (letter == "Y"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #75: (false R ((letter == "G") && (!!(letter == "C") || (!(letter == "Y") W ((letter == "B") || (letter == "C"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #76: ((false R !(letter == "K")) || (!(letter == "K") U ((letter == "K") && (!(true U (letter == "W")) || (!(letter == "W") U (((letter == "T") && !(letter == "W")) && X (!(letter == "W") U (letter == "Y"))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #77: ((false R !(letter == "D")) || (!(letter == "D") U ((letter == "D") && (!(true U ((letter == "W") && X (true U (letter == "Z")))) || (!(letter == "W") U (letter == "G"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #78: (false R (!((letter == "C") && (true U (letter == "N"))) || ((!(letter == "E") || (!(letter == "N") U (((letter == "S") && !(letter == "N")) && X (!(letter == "N") U (letter == "R"))))) U (letter == "N"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #79: (false R (!(letter == "H") || (true U ((letter == "R") && X (true U (letter == "W"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #80: (false R ((letter == "T") && (!!(letter == "Y") || (!(letter == "Z") W ((letter == "A") || (letter == "Y"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #81: (false R (!((letter == "L") && (true U (letter == "U"))) || (!(((letter == "S") && !(letter == "U")) && X (!(letter == "U") U ((letter == "W") && !(letter == "U")))) U ((letter == "U") || (letter == "K")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #82: (false R (!(letter == "W") || (false R (!(letter == "O") || ((letter == "Z") && X (true U (letter == "T")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #83: (false R ((letter == "R") && (!!(letter == "O") || (!(letter == "Q") W ((letter == "N") || (letter == "O"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #84: (false R (!(letter == "N") || (true U (letter == "Y"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #85: (false R (!((letter == "Y") && (true U (letter == "U"))) || (!(letter == "Z") U ((letter == "U") || (((letter == "O") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "R")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #86: (!(true U ((letter == "S") && X (true U (letter == "X")))) || (!(letter == "S") U (letter == "Z")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #87: (false R ((letter == "N") && (!X (true U (letter == "L")) || X (true U ((letter == "L") && (true U (letter == "W")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #88: (false R (!((letter == "M") && (true U (letter == "N"))) || ((!(letter == "A") || (!(letter == "N") U ((((letter == "R") && !(letter == "N")) && !(letter == "T")) && X ((!(letter == "N") && !(letter == "T")) U (letter == "X"))))) U (letter == "N"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #89: (false R (!(letter == "P") || (false R ((letter == "A") && (!X (true U (letter == "N")) || X (!(letter == "N") U ((letter == "N") && (true U (letter == "Z")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #90: (false R (!(letter == "D") || (true U ((letter == "Z") && X (true U (letter == "V"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #91: (false R (!((letter == "N") && (true U (letter == "X"))) || (!(letter == "Y") U ((letter == "X") || (((letter == "F") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "S")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #92: (false R (!((letter == "I") && (true U (letter == "J"))) || (!(letter == "P") U ((letter == "J") || (((letter == "S") && !(letter == "P")) && X (!(letter == "P") U (letter == "M")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #93: (!(letter == "Q") W (letter == "L"))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #94: (!(true U (letter == "L")) || (((letter == "I") && (!X (!(letter == "L") U (letter == "H")) || X (!(letter == "L") U ((letter == "H") && (true U (letter == "V")))))) U (letter == "L")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #95: (false R (!(letter == "H") || ((!(letter == "D") || (!(letter == "C") U (((letter == "Y") && !(letter == "C")) && X (!(letter == "C") U (letter == "S"))))) U ((letter == "C") || (false R (!(letter == "D") || ((letter == "Y") && X (true U (letter == "S")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #96: (false R (!(((letter == "H") && !(letter == "I")) && (true U (letter == "I"))) || (!(letter == "Y") U ((letter == "B") || (letter == "I")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #97: (false R (!(letter == "F") || (true U ((letter == "P") && X (true U (letter == "S"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #98: ((false R !(letter == "S")) || (!(letter == "S") U ((letter == "S") && (!(true U (letter == "W")) || (!(letter == "W") U (((letter == "Q") && !(letter == "W")) && X (!(letter == "W") U (letter == "A"))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #99: (false R (!(letter == "J") || (!(true U (letter == "Y")) || (!(letter == "Y") U ((letter == "D") || (((letter == "T") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "W"))))))))
+[main] INFO de.learnlib.util.Experiment - Starting round 1
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K H / Q P]
+[main] INFO de.learnlib.util.Experiment - Starting round 2
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J F F M H / U Q V Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 3
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K H A / Q P T]
+[main] INFO de.learnlib.util.Experiment - Starting round 4
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|B C A H I / U P U W T]
+[main] INFO de.learnlib.util.Experiment - Starting round 5
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J L C F A E / U X T W V P]
+[main] INFO de.learnlib.util.Experiment - Starting round 6
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J C M H O / U Q U W -]
+[main] INFO de.learnlib.util.Experiment - Starting round 7
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J L C O G / U X T S P]
+[main] INFO de.learnlib.util.Experiment - Starting round 8
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J C G O D / U Q Q X V]
+[main] INFO de.learnlib.util.Experiment - Starting round 9
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J L C O G H / U X T S P S]
+[main] INFO de.learnlib.util.Experiment - Starting round 10
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J L C O G H H / U X T S P S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 11
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO nl.utwente.fmt.rers.TimeOutEQOracle - Useless equivalence queries: 74248582
+[main] INFO nl.utwente.fmt.rers.TimeOutEQOracle - Useless equivalence symbols: 874089249
+[main] INFO nl.utwente.fmt.rers.TimeOutEQOracle - Real useless queries: 74248582
+[main] INFO nl.utwente.fmt.rers.TimeOutEQOracle - Real useless symbols: 874089249
+[main] INFO nl.utwente.fmt.rers.Main - final states: 234
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "B") || (false R (!(letter == "F") || (((letter == "V") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "P")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J F H E B F / U Q S S X X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "K") || ((!(letter == "F") || (!(letter == "P") U ((((letter == "X") && !(letter == "P")) && !(letter == "Q")) && X ((!(letter == "P") && !(letter == "Q")) U (letter == "Z"))))) U ((letter == "P") || (false R (!(letter == "F") || (((letter == "X") && !(letter == "Q")) && X (!(letter == "Q") U (letter == "Z")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C I K F B I / U Q S X S T P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "O") && (true U (letter == "K"))) || (!(((letter == "V") && !(letter == "K")) && X (!(letter == "K") U ((letter == "Q") && !(letter == "K")))) U ((letter == "K") || (letter == "B")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C G O D O K / U Q Q X V Q U]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "A")) || (!(letter == "U") U ((letter == "S") || (letter == "A"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|B C A / U P U]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "C")) || ((!(letter == "D") || (!(letter == "C") U ((letter == "P") && !(letter == "C")))) U (letter == "C")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K H A M H D C / Q P T X Q T V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '((false R !(letter == "G")) || (!(letter == "G") U ((letter == "G") && (!(true U ((letter == "S") && X (true U (letter == "X")))) || (!(letter == "S") U (letter == "F"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J L C O G H L / U X T S P S X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "I")) || ((!(letter == "O") || (!(letter == "I") U ((((letter == "T") && !(letter == "I")) && !(letter == "R")) && X ((!(letter == "I") && !(letter == "R")) U (letter == "Z"))))) U (letter == "I")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C G O D I / U Q Q X V X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "L") && (true U (letter == "G"))) || (!(((letter == "W") && !(letter == "G")) && X (!(letter == "G") U ((letter == "Y") && !(letter == "G")))) U ((letter == "G") || (letter == "Q")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J L C F I D O G / U X T W U Y S P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "F")) || (!(letter == "W") U ((letter == "F") || (((letter == "L") && !(letter == "W")) && X (!(letter == "W") U (letter == "X"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C M H G A F / U Q U W S S Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "U") || ((!(((letter == "Y") && !(letter == "R")) && X (!(letter == "R") U ((letter == "V") && !(letter == "R")))) U ((letter == "R") || (letter == "A"))) || (false R !((letter == "Y") && X (true U (letter == "V")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J F F M J J / U Q V Y U V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "A") || (false R (!(letter == "D") || (((letter == "U") && !(letter == "S")) && X (!(letter == "S") U (letter == "Y")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K H A M H D / Q P T X Q T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '((false R !(letter == "Y")) || (!(letter == "Y") U ((letter == "Y") && (!(true U ((letter == "Q") && X (true U (letter == "V")))) || (!(letter == "Q") U (letter == "D"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J F F M J J F C / U Q V Y U V Q V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "K") && (!!(letter == "Z") || (!(letter == "S") W ((letter == "V") || (letter == "Z"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / U]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "E")) || ((!(letter == "F") || (!(letter == "E") U (((letter == "Y") && !(letter == "E")) && X (!(letter == "E") U (letter == "Q"))))) U (letter == "E")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J F H E / U Q S S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "K") || (((letter == "G") && (!X (!(letter == "L") U (letter == "I")) || X (!(letter == "L") U ((letter == "I") && (true U (letter == "Y")))))) U ((letter == "L") || (false R ((letter == "G") && (!X (!(letter == "L") U (letter == "I")) || X (!(letter == "L") U ((letter == "I") && (true U (letter == "Y")))))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(letter == "W") W (letter == "U"))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K H A C K / Q P T Y W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "E")) || ((!(letter == "L") || (!(letter == "E") U ((letter == "S") && !(letter == "E")))) U (letter == "E")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J L C F A E / U X T W V P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "N") && (!X (true U (letter == "M")) || X (true U ((letter == "M") && (true U (letter == "T")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(letter == "S") W (letter == "R"))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C I / U Q S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "X")) || (!(((letter == "W") && !(letter == "X")) && X (!(letter == "X") U ((letter == "Q") && !(letter == "X")))) U ((letter == "X") || (letter == "T"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|B C A B G H K / U P U P W Q X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(letter == "P") W (letter == "A"))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|B C / U P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "X")) || (!(letter == "X") U (((letter == "U") && !(letter == "X")) && X (!(letter == "X") U (letter == "F")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J L / U X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "J") && (!X (true U (letter == "M")) || X (true U ((letter == "M") && (true U (letter == "P")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "D")) || ((!(letter == "G") || (!(letter == "D") U (((letter == "P") && !(letter == "D")) && X (!(letter == "D") U (letter == "S"))))) U (letter == "D")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C G O D / U Q Q X V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "T")) || ((!(letter == "H") || (!(letter == "T") U ((((letter == "W") && !(letter == "T")) && !(letter == "Y")) && X ((!(letter == "T") && !(letter == "Y")) U (letter == "R"))))) U (letter == "T")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K H A / Q P T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "T")) || (!(letter == "T") U (((letter == "G") && !(letter == "T")) && X (!(letter == "T") U (letter == "V")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J L C / U X T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "J") || ((!(letter == "A") || (!(letter == "B") U ((((letter == "R") && !(letter == "B")) && !(letter == "W")) && X ((!(letter == "B") && !(letter == "W")) U (letter == "V"))))) U ((letter == "B") || (false R (!(letter == "A") || (((letter == "R") && !(letter == "W")) && X (!(letter == "W") U (letter == "V")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C M A E B / U Q U X Q T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "D")) || ((!(letter == "E") || (!(letter == "D") U ((letter == "W") && !(letter == "D")))) U (letter == "D")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C M E D / U Q U Y S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "I") && (true U (letter == "K"))) || (!(letter == "S") U ((letter == "K") || (((letter == "W") && !(letter == "S")) && X (!(letter == "S") U (letter == "X")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C I K / U Q S X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "O") && (true U (letter == "E"))) || ((!(letter == "J") || (!(letter == "E") U ((((letter == "P") && !(letter == "E")) && !(letter == "Z")) && X ((!(letter == "E") && !(letter == "Z")) U (letter == "T"))))) U (letter == "E"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J F F O D G J F H E / U Q V X U T U Q S S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "W")) || (!(letter == "W") U (((letter == "B") && !(letter == "W")) && X (!(letter == "W") U (letter == "E")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J F D / U Q W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "R") && (!!(letter == "M") || ((!(letter == "O") || (!(letter == "M") U ((letter == "X") && !(letter == "M")))) W (letter == "M")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "D")) || (((letter == "M") && (!X (!(letter == "D") U (letter == "H")) || X (!(letter == "D") U ((letter == "H") && (true U (letter == "S")))))) U (letter == "D")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J F D / U Q W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "M")) || ((!(letter == "I") || (!(letter == "M") U ((letter == "R") && !(letter == "M")))) U (letter == "M")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J L C I M / U X T Q X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "B") || ((!(((letter == "V") && !(letter == "J")) && X (!(letter == "J") U ((letter == "W") && !(letter == "J")))) U ((letter == "J") || (letter == "Y"))) || (false R !((letter == "V") && X (true U (letter == "W")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|B C A B M K L F D / U P U P W T V Q W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "D")) || (((letter == "G") && (!X (!(letter == "D") U (letter == "C")) || X (!(letter == "D") U ((letter == "C") && (true U (letter == "T")))))) U (letter == "D")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J F D / U Q W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(((letter == "S") && !(letter == "K")) && (true U (letter == "K"))) || (!(letter == "Y") U ((letter == "F") || (letter == "K")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J F D O M G O K / U Q W S V Y W W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "Q") && (true U (letter == "D"))) || (!(letter == "W") U ((letter == "D") || (((letter == "I") && !(letter == "W")) && X (!(letter == "W") U (letter == "M")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C M H G A D / U Q U W S S V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "Q") && (true U (letter == "Y"))) || (((letter == "A") && (!X (!(letter == "Y") U (letter == "O")) || X (!(letter == "Y") U ((letter == "O") && (true U (letter == "Z")))))) U (letter == "Y"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C M E / U Q U Y]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "L")) || ((!(letter == "D") || (!(letter == "L") U ((letter == "Y") && !(letter == "L")))) U (letter == "L")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J F D O M A L / U Q W S V T T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "Y") && (!!(letter == "M") || (!(letter == "Z") W ((letter == "C") || (letter == "M"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(((letter == "Y") && !(letter == "W")) && (true U (letter == "W"))) || ((!(letter == "H") || (!(letter == "W") U ((letter == "S") && !(letter == "W")))) U (letter == "W"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K H A C H I / Q P T Y X W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(((letter == "C") && !(letter == "H")) && (true U (letter == "H"))) || ((!(letter == "D") || (!(letter == "H") U ((letter == "V") && !(letter == "H")))) U (letter == "H"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J L C F I D H / U X T W U Y P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "B")) || ((!(letter == "A") || (!(letter == "B") U ((((letter == "V") && !(letter == "B")) && !(letter == "X")) && X ((!(letter == "B") && !(letter == "X")) U (letter == "P"))))) U (letter == "B")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C M A E B / U Q U X Q T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U ((letter == "Q") && X (true U (letter == "S")))) || (!(letter == "Q") U (letter == "I")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C I / U Q S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "I") && (true U (letter == "T"))) || ((!(letter == "K") || (!(letter == "T") U ((((letter == "X") && !(letter == "T")) && !(letter == "U")) && X ((!(letter == "T") && !(letter == "U")) U (letter == "Z"))))) U (letter == "T"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C I K F B / U Q S X S T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(((letter == "X") && !(letter == "T")) && (true U (letter == "T"))) || (!(letter == "Y") U ((letter == "V") || (letter == "T")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J L C F C L H / U X T W X Y T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "U")) || ((!(letter == "C") || (!(letter == "U") U ((((letter == "R") && !(letter == "U")) && !(letter == "V")) && X ((!(letter == "U") && !(letter == "V")) U (letter == "W"))))) U (letter == "U")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K H A M C O / Q P T X V U]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "G") && (!!(letter == "C") || (!(letter == "Y") W ((letter == "B") || (letter == "C"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '((false R !(letter == "K")) || (!(letter == "K") U ((letter == "K") && (!(true U (letter == "W")) || (!(letter == "W") U (((letter == "T") && !(letter == "W")) && X (!(letter == "W") U (letter == "Y"))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K H A M G J / Q P T X U W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "T") && (!!(letter == "Y") || (!(letter == "Z") W ((letter == "A") || (letter == "Y"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "L") && (true U (letter == "U"))) || (!(((letter == "S") && !(letter == "U")) && X (!(letter == "U") U ((letter == "W") && !(letter == "U")))) U ((letter == "U") || (letter == "K")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J L L L C I / U X S T W U]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "W") || (false R (!(letter == "O") || ((letter == "Z") && X (true U (letter == "T")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J F D O / U Q W S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "R") && (!!(letter == "O") || (!(letter == "Q") W ((letter == "N") || (letter == "O"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U ((letter == "S") && X (true U (letter == "X")))) || (!(letter == "S") U (letter == "Z")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C I K / U Q S X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "N") && (!X (true U (letter == "L")) || X (true U ((letter == "L") && (true U (letter == "W")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "P") || (false R ((letter == "A") && (!X (true U (letter == "N")) || X (!(letter == "N") U ((letter == "N") && (true U (letter == "Z")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|B C / U P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "I") && (true U (letter == "J"))) || (!(letter == "P") U ((letter == "J") || (((letter == "S") && !(letter == "P")) && X (!(letter == "P") U (letter == "M")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J F F M D I J / U Q V Y P P S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(letter == "Q") W (letter == "L"))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "L")) || (((letter == "I") && (!X (!(letter == "L") U (letter == "H")) || X (!(letter == "L") U ((letter == "H") && (true U (letter == "V")))))) U (letter == "L")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J L / U X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "H") || ((!(letter == "D") || (!(letter == "C") U (((letter == "Y") && !(letter == "C")) && X (!(letter == "C") U (letter == "S"))))) U ((letter == "C") || (false R (!(letter == "D") || ((letter == "Y") && X (true U (letter == "S")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K H A M H D C / Q P T X Q T V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(((letter == "H") && !(letter == "I")) && (true U (letter == "I"))) || (!(letter == "Y") U ((letter == "B") || (letter == "I")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K H A C H I / Q P T Y X W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '((false R !(letter == "S")) || (!(letter == "S") U ((letter == "S") && (!(true U (letter == "W")) || (!(letter == "W") U (((letter == "Q") && !(letter == "W")) && X (!(letter == "W") U (letter == "A"))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C I G H / U Q S U W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "J") || (!(true U (letter == "Y")) || (!(letter == "Y") U ((letter == "D") || (((letter == "T") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "W"))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J C M E / U Q U Y]
+[main] INFO nl.utwente.fmt.rers.Main - Final learning queries: 168528
+[main] INFO nl.utwente.fmt.rers.Main - Properties disproved: 64

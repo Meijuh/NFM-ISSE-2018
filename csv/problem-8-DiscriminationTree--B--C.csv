@@ -1,0 +1,7 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+8,DiscriminationTree,buchi,cex-first,4,293,68971673,68828617,0,0,14195209,225152,28579,28569,0,0,260568,11,59,40.000000,11
+8,DiscriminationTree,buchi,cex-first,5,293,68971673,68828617,0,0,14200259,225152,28579,28569,0,0,260614,11,199,40.000000,11
+8,DiscriminationTree,buchi,cex-first,10,293,68971673,68828617,0,0,222037823,225152,28579,28569,0,0,296007,11,704,40.000000,11
+8,DiscriminationTree,buchi,cex-first,12,293,68971673,68828617,0,0,222071934,225152,28579,28569,0,0,296147,11,452,40.000000,11
+8,DiscriminationTree,buchi,cex-first,13,293,68971673,68828617,0,0,231760890,225152,28579,28569,0,0,297943,11,10779,40.000000,11
+8,DiscriminationTree,buchi,cex-first,15,293,68971673,68828617,0,0,231761516,225152,28579,28569,0,0,297962,11,59,40.000000,11

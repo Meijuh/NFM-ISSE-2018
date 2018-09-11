@@ -1,0 +1,7 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+7,MalerPnueli,monitor-buchi,cex-first,0,1,11,10,0,1,0,0,12,11,0,1,0,0,1,35.000000,1
+7,MalerPnueli,monitor-buchi,cex-first,1,1,12,10,0,2,0,0,13,11,0,2,0,0,1,35.000000,1
+7,MalerPnueli,monitor-buchi,cex-first,39,1,13,10,0,3,0,0,14,11,0,3,0,0,1,35.000000,1
+7,MalerPnueli,monitor-buchi,cex-first,5,62,2628691,2628574,0,9,3416,108,68316,68310,0,4,828,2,6,35.000000,3
+7,MalerPnueli,monitor-buchi,cex-first,6,62,2628695,2628574,0,13,3416,108,68317,68310,0,5,828,2,4,35.000000,3
+7,MalerPnueli,monitor-buchi,cex-first,9,62,2628704,2628574,0,22,3416,108,68318,68310,0,6,828,2,9,35.000000,3

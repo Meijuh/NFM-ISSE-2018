@@ -1,0 +1,10 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+5,DiscriminationTree,buchi,disprove-first,17,29,10588,10128,0,0,6284054,460,1626,1622,0,0,33196,4,808,25.000000,5
+5,DiscriminationTree,buchi,disprove-first,49,29,10588,10128,0,0,20132544,460,1626,1622,0,0,60278,4,808,25.000000,5
+5,DiscriminationTree,buchi,disprove-first,54,29,10588,10128,0,0,20354389,460,1626,1622,0,0,63577,4,808,25.000000,5
+5,DiscriminationTree,buchi,disprove-first,90,29,10588,10128,0,0,34547714,460,1626,1622,0,0,89350,4,808,25.000000,5
+5,DiscriminationTree,buchi,disprove-first,95,29,10588,10128,0,0,36325482,460,1626,1622,0,0,92653,4,808,25.000000,5
+5,DiscriminationTree,buchi,disprove-first,4,58,1879792,1870930,0,0,135443860,8862,4312,4306,0,0,197741,6,1696,25.000000,7
+5,DiscriminationTree,buchi,disprove-first,57,58,1879792,1870930,0,0,258235090,8862,4312,4306,0,0,251807,6,845,25.000000,7
+5,DiscriminationTree,buchi,disprove-first,96,58,1879792,1870930,0,0,347106438,8862,4312,4306,0,0,292714,6,624,25.000000,7
+5,DiscriminationTree,buchi,disprove-first,34,75,5150712,5119483,0,0,854585575,31229,5921,5912,0,0,480908,9,3497,25.000000,9

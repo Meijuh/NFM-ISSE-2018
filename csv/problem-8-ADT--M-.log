@@ -1,0 +1,1317 @@
+[main] INFO nl.utwente.fmt.rers.Main - hostname: ctit012.ewi.utwente.nl
+[main] INFO nl.utwente.fmt.rers.Main - commandline is: -c -t3600 -m40.0 -u20 8 ADT -M
+[main] INFO nl.utwente.fmt.rers.Main - multiplier is: 40.0
+[main] INFO nl.utwente.fmt.rers.Main - minimum unfolds is : 20
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #0: (false R (!(letter == "U") || ((!(((letter == "Y") && !(letter == "R")) && X (!(letter == "R") U ((letter == "V") && !(letter == "R")))) U ((letter == "R") || (letter == "A"))) || (false R !((letter == "Y") && X (true U (letter == "V")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #1: (false R (!(((letter == "S") && !(letter == "K")) && (true U (letter == "K"))) || (!(letter == "Y") U ((letter == "F") || (letter == "K")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #2: (false R (!(letter == "P") || (false R (!(letter == "F") || (true U (letter == "Q"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #3: (false R (!(((letter == "A") && !(letter == "I")) && (true U (letter == "I"))) || (!(letter == "R") U ((letter == "M") || (letter == "I")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #4: (false R (!(letter == "E") || (true U (letter == "Z"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #5: ((false R !(letter == "S")) || (!(letter == "S") U ((letter == "S") && (!(true U (letter == "W")) || (!(letter == "W") U (((letter == "Q") && !(letter == "W")) && X (!(letter == "W") U (letter == "A"))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #6: (false R (!((letter == "I") && (true U (letter == "T"))) || ((!(letter == "K") || (!(letter == "T") U ((((letter == "X") && !(letter == "T")) && !(letter == "U")) && X ((!(letter == "T") && !(letter == "U")) U (letter == "Z"))))) U (letter == "T"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #7: (false R (!(letter == "R") || ((!(((letter == "T") && !(letter == "M")) && X (!(letter == "M") U ((letter == "V") && !(letter == "M")))) U ((letter == "M") || (letter == "C"))) || (false R !((letter == "T") && X (true U (letter == "V")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #8: (!(true U (letter == "Y")) || ((!(letter == "N") || (!(letter == "Y") U ((((letter == "R") && !(letter == "Y")) && !(letter == "V")) && X ((!(letter == "Y") && !(letter == "V")) U (letter == "S"))))) U (letter == "Y")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #9: (false R (!((letter == "O") && (true U (letter == "K"))) || (!(((letter == "V") && !(letter == "K")) && X (!(letter == "K") U ((letter == "Q") && !(letter == "K")))) U ((letter == "K") || (letter == "B")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #10: (!(true U (letter == "L")) || ((!(letter == "D") || (!(letter == "L") U ((letter == "Y") && !(letter == "L")))) U (letter == "L")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #11: (false R (!(letter == "Y") || (false R (!(letter == "F") || (true U (letter == "Q"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #12: (!(true U (letter == "O")) || ((!(letter == "G") || (!(letter == "O") U ((((letter == "X") && !(letter == "O")) && !(letter == "W")) && X ((!(letter == "O") && !(letter == "W")) U (letter == "R"))))) U (letter == "O")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #13: (!(true U (letter == "C")) || ((!(letter == "D") || (!(letter == "C") U ((((letter == "X") && !(letter == "C")) && !(letter == "T")) && X ((!(letter == "C") && !(letter == "T")) U (letter == "U"))))) U (letter == "C")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #14: (!(true U (letter == "F")) || ((!(letter == "A") || (!(letter == "F") U (((letter == "T") && !(letter == "F")) && X (!(letter == "F") U (letter == "U"))))) U (letter == "F")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #15: (false R ((letter == "W") && (!!(letter == "O") || (!(letter == "Y") W ((letter == "E") || (letter == "O"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #16: (false R (!(letter == "B") || (false R (!(letter == "O") || (true U (letter == "S"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #17: (!(true U ((letter == "Q") && X (true U (letter == "S")))) || (!(letter == "Q") U (letter == "I")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #18: (false R (!((letter == "I") && (true U (letter == "K"))) || (!(letter == "S") U ((letter == "K") || (((letter == "W") && !(letter == "S")) && X (!(letter == "S") U (letter == "X")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #19: (!(true U (letter == "G")) || ((!(letter == "A") || (!(letter == "G") U (((letter == "R") && !(letter == "G")) && X (!(letter == "G") U (letter == "S"))))) U (letter == "G")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #20: (!(true U (letter == "L")) || (((letter == "I") && (!X (!(letter == "L") U (letter == "H")) || X (!(letter == "L") U ((letter == "H") && (true U (letter == "V")))))) U (letter == "L")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #21: (false R (!(letter == "L") || (true U (((letter == "V") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "R"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #22: (false R (!((letter == "Y") && (true U (letter == "U"))) || (!(letter == "Z") U ((letter == "U") || (((letter == "O") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "R")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #23: (false R (!(letter == "K") || (((letter == "G") && (!X (!(letter == "L") U (letter == "I")) || X (!(letter == "L") U ((letter == "I") && (true U (letter == "Y")))))) U ((letter == "L") || (false R ((letter == "G") && (!X (!(letter == "L") U (letter == "I")) || X (!(letter == "L") U ((letter == "I") && (true U (letter == "Y")))))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #24: (!(true U (letter == "E")) || ((!(letter == "F") || (!(letter == "E") U (((letter == "Y") && !(letter == "E")) && X (!(letter == "E") U (letter == "Q"))))) U (letter == "E")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #25: (false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #26: (!(true U (letter == "D")) || ((!(letter == "G") || (!(letter == "D") U (((letter == "P") && !(letter == "D")) && X (!(letter == "D") U (letter == "S"))))) U (letter == "D")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #27: (!(letter == "U") W (letter == "E"))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #28: (false R (!(letter == "H") || ((!(letter == "D") || (!(letter == "C") U (((letter == "Y") && !(letter == "C")) && X (!(letter == "C") U (letter == "S"))))) U ((letter == "C") || (false R (!(letter == "D") || ((letter == "Y") && X (true U (letter == "S")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #29: (!(true U ((letter == "S") && X (true U (letter == "X")))) || (!(letter == "S") U (letter == "Z")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #30: (false R (!((letter == "L") && (true U (letter == "E"))) || ((!(letter == "B") || (!(letter == "E") U ((((letter == "W") && !(letter == "E")) && !(letter == "S")) && X ((!(letter == "E") && !(letter == "S")) U (letter == "Z"))))) U (letter == "E"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #31: (false R (!((letter == "I") && (true U (letter == "J"))) || (!(letter == "P") U ((letter == "J") || (((letter == "S") && !(letter == "P")) && X (!(letter == "P") U (letter == "M")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #32: (false R (!(letter == "F") || (true U ((letter == "P") && X (true U (letter == "S"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #33: (false R (!(letter == "B") || (false R (!(letter == "F") || (((letter == "V") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "P")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #34: (!(true U ((letter == "X") && X (true U (letter == "P")))) || (!(letter == "X") U (letter == "V")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #35: ((false R !(letter == "Y")) || (!(letter == "Y") U ((letter == "Y") && (!(true U ((letter == "Q") && X (true U (letter == "V")))) || (!(letter == "Q") U (letter == "D"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #36: (false R (!(letter == "W") || (!(true U (letter == "X")) || (!(letter == "X") U ((letter == "R") || (((letter == "N") && !(letter == "X")) && X (!(letter == "X") U (letter == "A"))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #37: (false R (!(letter == "D") || (true U ((letter == "Z") && X (true U (letter == "V"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #38: (false R ((letter == "T") && (!!(letter == "Y") || (!(letter == "Z") W ((letter == "A") || (letter == "Y"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #39: (false R (!((letter == "L") && (true U (letter == "U"))) || (!(letter == "P") U ((letter == "U") || (((letter == "Q") && !(letter == "P")) && X (!(letter == "P") U (letter == "Y")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #40: (false R (!(letter == "W") || (false R (!(letter == "O") || ((letter == "Z") && X (true U (letter == "T")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #41: (false R (!(letter == "U") || (false R (!(letter == "H") || (true U (letter == "P"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #42: (false R (!(letter == "V") || (((letter == "J") && (!X (!(letter == "H") U (letter == "A")) || X (!(letter == "H") U ((letter == "A") && (true U (letter == "P")))))) U ((letter == "H") || (false R ((letter == "J") && (!X (!(letter == "H") U (letter == "A")) || X (!(letter == "H") U ((letter == "A") && (true U (letter == "P")))))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #43: (!(letter == "S") W (letter == "R"))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #44: (false R (!(letter == "Z") || (false R (!(letter == "E") || (((letter == "R") && !(letter == "X")) && X (!(letter == "X") U (letter == "Q")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #45: (!(true U (letter == "F")) || (!(letter == "W") U ((letter == "F") || (((letter == "L") && !(letter == "W")) && X (!(letter == "W") U (letter == "X"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #46: (false R (!(letter == "N") || (true U (letter == "Y"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #47: (false R (!(letter == "V") || (false R (!(letter == "H") || ((letter == "P") && X (true U (letter == "R")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #48: (false R ((letter == "A") && (!X (true U (letter == "E")) || X (true U ((letter == "E") && (true U (letter == "P")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #49: (false R (!((letter == "L") && (true U (letter == "U"))) || (!(((letter == "S") && !(letter == "U")) && X (!(letter == "U") U ((letter == "W") && !(letter == "U")))) U ((letter == "U") || (letter == "K")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #50: ((false R !(letter == "Q")) || (!(letter == "Q") U ((letter == "Q") && (!(true U ((letter == "R") && X (true U (letter == "S")))) || (!(letter == "R") U (letter == "X"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #51: (false R ((letter == "N") && (!!(letter == "Q") || (!(letter == "V") W ((letter == "I") || (letter == "Q"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #52: (false R (!(letter == "J") || (true U (letter == "V"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #53: (!(true U (letter == "M")) || ((!(letter == "I") || (!(letter == "M") U ((letter == "R") && !(letter == "M")))) U (letter == "M")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #54: (!(true U (letter == "C")) || ((!(letter == "D") || (!(letter == "C") U ((letter == "P") && !(letter == "C")))) U (letter == "C")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #55: (false R (!(((letter == "H") && !(letter == "I")) && (true U (letter == "I"))) || (!(letter == "Y") U ((letter == "B") || (letter == "I")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #56: (false R (!((letter == "M") && (true U (letter == "N"))) || ((!(letter == "A") || (!(letter == "N") U ((((letter == "R") && !(letter == "N")) && !(letter == "T")) && X ((!(letter == "N") && !(letter == "T")) U (letter == "X"))))) U (letter == "N"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #57: (false R (!((letter == "F") && (true U (letter == "B"))) || (!(letter == "P") U ((letter == "B") || (((letter == "S") && !(letter == "P")) && X (!(letter == "P") U (letter == "H")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #58: (!(true U (letter == "D")) || (((letter == "G") && (!X (!(letter == "D") U (letter == "C")) || X (!(letter == "D") U ((letter == "C") && (true U (letter == "T")))))) U (letter == "D")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #59: (!(letter == "P") W (letter == "A"))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #60: (false R (!(letter == "E") || (false R (!(letter == "F") || (((letter == "R") && !(letter == "W")) && X (!(letter == "W") U (letter == "V")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #61: (false R (!((letter == "C") && (true U (letter == "N"))) || ((!(letter == "E") || (!(letter == "N") U (((letter == "S") && !(letter == "N")) && X (!(letter == "N") U (letter == "R"))))) U (letter == "N"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #62: (!(true U (letter == "C")) || (!(((letter == "S") && !(letter == "C")) && X (!(letter == "C") U ((letter == "R") && !(letter == "C")))) U ((letter == "C") || (letter == "F"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #63: (false R (!(letter == "A") || (true U ((letter == "U") && X (true U (letter == "T"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #64: (false R (!(letter == "U") || (false R (!(letter == "N") || (((letter == "X") && !(letter == "S")) && X (!(letter == "S") U (letter == "V")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #65: (false R ((letter == "J") && (!X (true U (letter == "M")) || X (true U ((letter == "M") && (true U (letter == "P")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #66: (false R (!(letter == "C") || (true U ((letter == "U") && X (true U (letter == "S"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #67: (!(true U (letter == "D")) || (((letter == "M") && (!X (!(letter == "D") U (letter == "H")) || X (!(letter == "D") U ((letter == "H") && (true U (letter == "S")))))) U (letter == "D")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #68: ((false R !(letter == "K")) || (!(letter == "K") U ((letter == "K") && (!(true U (letter == "W")) || (!(letter == "W") U (((letter == "T") && !(letter == "W")) && X (!(letter == "W") U (letter == "Y"))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #69: (false R (!(letter == "P") || (false R ((letter == "A") && (!X (true U (letter == "N")) || X (!(letter == "N") U ((letter == "N") && (true U (letter == "Z")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #70: (false R (!((letter == "L") && (true U (letter == "U"))) || (!(letter == "R") U ((letter == "U") || (((letter == "V") && !(letter == "R")) && X (!(letter == "R") U (letter == "F")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #71: (false R (!((letter == "P") && (true U (letter == "O"))) || (!(letter == "R") U ((letter == "O") || (((letter == "C") && !(letter == "R")) && X (!(letter == "R") U (letter == "N")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #72: (false R (!((letter == "P") && (true U (letter == "W"))) || (!(((letter == "T") && !(letter == "W")) && X (!(letter == "W") U ((letter == "Z") && !(letter == "W")))) U ((letter == "W") || (letter == "R")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #73: (false R (!((letter == "O") && (true U (letter == "E"))) || ((!(letter == "J") || (!(letter == "E") U ((((letter == "P") && !(letter == "E")) && !(letter == "Z")) && X ((!(letter == "E") && !(letter == "Z")) U (letter == "T"))))) U (letter == "E"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #74: (!(true U (letter == "X")) || (!(((letter == "W") && !(letter == "X")) && X (!(letter == "X") U ((letter == "Q") && !(letter == "X")))) U ((letter == "X") || (letter == "T"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #75: (false R ((letter == "F") && (!!(letter == "K") || (!(letter == "X") W ((letter == "L") || (letter == "K"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #76: (false R (!(letter == "S") || (((letter == "M") && (!X (!(letter == "G") U (letter == "F")) || X (!(letter == "G") U ((letter == "F") && (true U (letter == "W")))))) U ((letter == "G") || (false R ((letter == "M") && (!X (!(letter == "G") U (letter == "F")) || X (!(letter == "G") U ((letter == "F") && (true U (letter == "W")))))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #77: (!(letter == "R") W (letter == "E"))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #78: (false R (!(letter == "O") || ((!(letter == "K") || (!(letter == "W") U (((letter == "V") && !(letter == "W")) && X (!(letter == "W") U (letter == "U"))))) U ((letter == "W") || (false R (!(letter == "K") || ((letter == "V") && X (true U (letter == "U")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #79: (!(true U (letter == "A")) || (((letter == "L") && (!X (!(letter == "A") U (letter == "J")) || X (!(letter == "A") U ((letter == "J") && (true U (letter == "X")))))) U (letter == "A")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #80: (false R (!(letter == "U") || (false R ((letter == "H") && (!X (true U (letter == "N")) || X (!(letter == "N") U ((letter == "N") && (true U (letter == "S")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #81: (false R (!(letter == "Q") || (!(true U (letter == "Z")) || (!(letter == "Z") U ((letter == "X") || (((letter == "H") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "U"))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #82: (!(true U (letter == "T")) || (!(letter == "T") U (((letter == "G") && !(letter == "T")) && X (!(letter == "T") U (letter == "V")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #83: (false R (!(((letter == "X") && !(letter == "T")) && (true U (letter == "T"))) || (!(letter == "Y") U ((letter == "V") || (letter == "T")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #84: (false R (!(letter == "O") || (true U (letter == "R"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #85: (false R ((letter == "R") && (!!(letter == "O") || (!(letter == "Q") W ((letter == "N") || (letter == "O"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #86: (false R (!(letter == "J") || ((!(letter == "A") || (!(letter == "B") U ((((letter == "R") && !(letter == "B")) && !(letter == "W")) && X ((!(letter == "B") && !(letter == "W")) U (letter == "V"))))) U ((letter == "B") || (false R (!(letter == "A") || (((letter == "R") && !(letter == "W")) && X (!(letter == "W") U (letter == "V")))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #87: (!(true U (letter == "T")) || ((!(letter == "H") || (!(letter == "T") U ((((letter == "W") && !(letter == "T")) && !(letter == "Y")) && X ((!(letter == "T") && !(letter == "Y")) U (letter == "R"))))) U (letter == "T")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #88: (false R (!(((letter == "Y") && !(letter == "W")) && (true U (letter == "W"))) || ((!(letter == "H") || (!(letter == "W") U ((letter == "S") && !(letter == "W")))) U (letter == "W"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #89: (false R (!(letter == "B") || ((!(((letter == "V") && !(letter == "J")) && X (!(letter == "J") U ((letter == "W") && !(letter == "J")))) U ((letter == "J") || (letter == "Y"))) || (false R !((letter == "V") && X (true U (letter == "W")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #90: (false R (!(letter == "X") || (false R (!(letter == "K") || (((letter == "P") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "W")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #91: (false R (!((letter == "N") && (true U (letter == "X"))) || (!(letter == "Y") U ((letter == "X") || (((letter == "F") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "S")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #92: (false R (!(((letter == "E") && !(letter == "P")) && (true U (letter == "P"))) || (!(letter == "R") U ((letter == "G") || (letter == "P")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #93: ((false R !(letter == "U")) || (!(letter == "U") U ((letter == "U") && (!(true U (letter == "Y")) || (!(letter == "Y") U (((letter == "N") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "J"))))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #94: (!(true U (letter == "A")) || (!(letter == "U") U ((letter == "S") || (letter == "A"))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #95: (false R ((letter == "N") && (!X (true U (letter == "L")) || X (true U ((letter == "L") && (true U (letter == "W")))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #96: (!(true U (letter == "U")) || ((!(letter == "C") || (!(letter == "U") U ((((letter == "R") && !(letter == "U")) && !(letter == "V")) && X ((!(letter == "U") && !(letter == "V")) U (letter == "W"))))) U (letter == "U")))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #97: (false R (!((letter == "L") && (true U (letter == "G"))) || (!(((letter == "W") && !(letter == "G")) && X (!(letter == "G") U ((letter == "Y") && !(letter == "G")))) U ((letter == "G") || (letter == "Q")))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #98: (false R (!(letter == "C") || (true U (((letter == "T") && !(letter == "V")) && X (!(letter == "V") U (letter == "Y"))))))
+[main] INFO nl.utwente.fmt.rers.RERSExperiment - Parsed formula #99: (false R ((letter == "G") && (!!(letter == "C") || (!(letter == "Y") W ((letter == "B") || (letter == "C"))))))
+[main] INFO de.learnlib.util.Experiment - Starting round 1
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D / T Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 2
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D J D / T Q - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 3
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J M / Q -]
+[main] INFO de.learnlib.util.Experiment - Starting round 4
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L M / Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 5
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I D M / Q Q Y V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 6
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D B M J / T Q Q Q -]
+[main] INFO de.learnlib.util.Experiment - Starting round 7
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L O E D M / Q Q Z V R Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 8
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I D G O L D / Q Q Y V V T R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 9
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B O C G / Q Q Y X Q W R]
+[main] INFO de.learnlib.util.Experiment - Starting round 10
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D / Y V R Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 11
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E G / Y V Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 12
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B A G E G / Q Q Y X R Z S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 13
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G D A / T Q R S R Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 14
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E N G D G / Y V Y T T P P]
+[main] INFO de.learnlib.util.Experiment - Starting round 15
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G O D D C / T Q R S T X Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 16
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D B M A C / T Q Q Q T X]
+[main] INFO de.learnlib.util.Experiment - Starting round 17
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B A I G I / Q Q Y X R T T V]
+[main] INFO de.learnlib.util.Experiment - Starting round 18
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B A I D I / Q Q Y X R T V Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 19
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L C O I N / Y V Z W P S W]
+[main] INFO de.learnlib.util.Experiment - Starting round 20
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G D L G / T Q R S R Q T]
+[main] INFO de.learnlib.util.Experiment - Starting round 21
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E J G N / Y V Y X S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 22
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L C O I C M / Y V Z W P S P Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 23
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G D L C M / T Q R S R Q P V]
+[main] INFO de.learnlib.util.Experiment - Starting round 24
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G D D E M / T Q R S R Y Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 25
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C N / Q Q Z V X]
+[main] INFO de.learnlib.util.Experiment - Starting round 26
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C N A / Q Q Z V X R]
+[main] INFO de.learnlib.util.Experiment - Starting round 27
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C L C / Q Q Z V S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 28
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B A I N A / Q Q Y X R T P -]
+[main] INFO de.learnlib.util.Experiment - Starting round 29
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C N O N / Q Q Z V X P -]
+[main] INFO de.learnlib.util.Experiment - Starting round 30
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B A I L A / Q Q Y X R T Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 31
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C N O I M / Q Q Z V X P T S]
+[main] INFO de.learnlib.util.Experiment - Starting round 32
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O I N N E / Q P P Q V S]
+[main] INFO de.learnlib.util.Experiment - Starting round 33
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O C C A C E D / Q P Y - Z - W -]
+[main] INFO de.learnlib.util.Experiment - Starting round 34
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O E O C A D / Q P Y - - - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 35
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E J N L M / Y V Y X Z Q -]
+[main] INFO de.learnlib.util.Experiment - Starting round 36
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O I N L M / Q P P Q T Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 37
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C E A M / Q Q Z V Q Q -]
+[main] INFO de.learnlib.util.Experiment - Starting round 38
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O I N L C M / Q P P Q T W Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 39
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E J N C A A / Y V Y X Z T Q Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 40
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O I N N G B A / Q P P Q V P Q -]
+[main] INFO de.learnlib.util.Experiment - Starting round 41
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B O A E E / Q Q Y X Q Z Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 42
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O C A M M A M / Q P Y Z V W Y T]
+[main] INFO de.learnlib.util.Experiment - Starting round 43
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L O E D O L D A / Q Q Z V R Y S Z V Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 44
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L O E D O L D D C / Q Q Z V R Y S Z V X Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 45
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E A E N L C / Q Q W Y Y W R]
+[main] INFO de.learnlib.util.Experiment - Starting round 46
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A / Y V Z Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 47
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A C L D / Y V Z Q R - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 48
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A C J I C / Y V Z Q R X Q V]
+[main] INFO de.learnlib.util.Experiment - Starting round 49
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A C G G / Y V Z Q R V T]
+[main] INFO de.learnlib.util.Experiment - Starting round 50
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O E L D / Y V Z Y Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 51
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D B G C E M / T Q Q Q Y S Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 52
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O E B A / Y V Z Y X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 53
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O E B C M / Y V Z Y X X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 54
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O I N L C A M / Q P P Q T W X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 55
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A A A / Y V Z Q R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 56
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A O O / Y V Z Q Z V]
+[main] INFO de.learnlib.util.Experiment - Starting round 57
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A A N M / Y V Z Q R T -]
+[main] INFO de.learnlib.util.Experiment - Starting round 58
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A O O M / Y V Z Q Z V Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 59
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A O N G / Y V Z Q Z R W]
+[main] INFO de.learnlib.util.Experiment - Starting round 60
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E J N C A B I D M / Y V Y X Z T Q W V V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 61
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C A D D M / Q Q Y P X V W -]
+[main] INFO de.learnlib.util.Experiment - Starting round 62
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B A G N N / Q Q Y X R Z S V]
+[main] INFO de.learnlib.util.Experiment - Starting round 63
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L C M E D M / Y V Z W P R T -]
+[main] INFO de.learnlib.util.Experiment - Starting round 64
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A A D G / Y V Z Q R W V]
+[main] INFO de.learnlib.util.Experiment - Starting round 65
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A A D D N / Y V Z Q R W Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 66
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C E A C A / Q Q Z V Q Q Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 67
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A C B C A / Y V Z Q R P T W]
+[main] INFO de.learnlib.util.Experiment - Starting round 68
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G O D C B / T Q R S T X S V]
+[main] INFO de.learnlib.util.Experiment - Starting round 69
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L E B / Y V Z Z Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 70
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O E L O / Y V Z Y Y W]
+[main] INFO de.learnlib.util.Experiment - Starting round 71
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L E B M / Y V Z Z Y S]
+[main] INFO de.learnlib.util.Experiment - Starting round 72
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L E B C G A / Y V Z Z Y X T S]
+[main] INFO de.learnlib.util.Experiment - Starting round 73
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L E B M M / Y V Z Z Y S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 74
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B N L B A / Q Q Y X Y R Q V]
+[main] INFO de.learnlib.util.Experiment - Starting round 75
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E J N L C A / Y V Y X Z Q Y R]
+[main] INFO de.learnlib.util.Experiment - Starting round 76
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D B G C E G C M / T Q Q Q Y S V S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 77
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O E B C A G / Y V Z Y X X R V]
+[main] INFO de.learnlib.util.Experiment - Starting round 78
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A O N C A / Y V Z Q Z R Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 79
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D B M A D J A / T Q Q Q T V P -]
+[main] INFO de.learnlib.util.Experiment - Starting round 80
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A C G J M / Y V Z Q R V T W]
+[main] INFO de.learnlib.util.Experiment - Starting round 81
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A C B J M / Y V Z Q R P V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 82
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C G J G / Q Q Y P V V W]
+[main] INFO de.learnlib.util.Experiment - Starting round 83
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C G J G J / Q Q Y P V V W Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 84
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C N A E / Q Q Y P R S W]
+[main] INFO de.learnlib.util.Experiment - Starting round 85
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C A L J / Q Q Y P X S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 86
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A C N J / Y V Z Q R R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 87
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C A L N M / Q Q Y P X S V Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 88
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C N A E M / Q Q Y P R S W V]
+[main] INFO de.learnlib.util.Experiment - Starting round 89
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C N A E M / Q Q Z V X R Z V]
+[main] INFO de.learnlib.util.Experiment - Starting round 90
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E J N B A J / Y V Y X Z Y Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 91
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O C A E N M / Q P Y Z W V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 92
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O C A E M M / Q P Y Z W P -]
+[main] INFO de.learnlib.util.Experiment - Starting round 93
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M A I A M M M O E D / Z Y Z - - - - - - P - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 94
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G O A M E / T Q R S T R Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 95
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A L O O N J J D J I D / Z Y T - - - - - - - - Z S]
+[main] INFO de.learnlib.util.Experiment - Starting round 96
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O D / Y V R R Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 97
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O D D / Y V R R Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 98
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O C A E M I O / Q P Y Z W P X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 99
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D D C / Y V R Q S X]
+[main] INFO de.learnlib.util.Experiment - Starting round 100
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O I N N G M D / Q P P Q V P T R]
+[main] INFO de.learnlib.util.Experiment - Starting round 101
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D N D / Y V R Q S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 102
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M L D D / Z Y Z X - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 103
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M L A N L / Z Y Z X T R X]
+[main] INFO de.learnlib.util.Experiment - Starting round 104
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O O J O / Y V R R Y P X]
+[main] INFO de.learnlib.util.Experiment - Starting round 105
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O O M D / Y V R R Y T -]
+[main] INFO de.learnlib.util.Experiment - Starting round 106
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O C A A I M / Q P Y Z V Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 107
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O J D D C / Y V R R S V Z V]
+[main] INFO de.learnlib.util.Experiment - Starting round 108
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O E L O G N / Y V Z Y Y W X R]
+[main] INFO de.learnlib.util.Experiment - Starting round 109
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I O D M / Z Y T Z S W -]
+[main] INFO de.learnlib.util.Experiment - Starting round 110
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O H N C / Y V R R Q X Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 111
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I J O L / Z Y T Z W Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 112
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O I N L E O / Q P P Q T T -]
+[main] INFO de.learnlib.util.Experiment - Starting round 113
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D J B N / Y V R Q W Q -]
+[main] INFO de.learnlib.util.Experiment - Starting round 114
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I I E / Z Y T Z Q W]
+[main] INFO de.learnlib.util.Experiment - Starting round 115
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D G A / Y V R Q W W]
+[main] INFO de.learnlib.util.Experiment - Starting round 116
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C N A N D / Q Q Y P R S W -]
+[main] INFO de.learnlib.util.Experiment - Starting round 117
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I D N A D G / Z Y T Z S S W V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 118
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B A M B C / Q Q Y X R X Q V]
+[main] INFO de.learnlib.util.Experiment - Starting round 119
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O C A E N D E / Q P Y Z W V R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 120
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A O B D / Q Q Z R R Q S]
+[main] INFO de.learnlib.util.Experiment - Starting round 121
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M L A N L D / Z Y Z X T R X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 122
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O E B B B E / Y V Z Y X Y V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 123
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M L A N B E / Z Y Z X T R V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 124
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L E I D / Q Q Z S Y P]
+[main] INFO de.learnlib.util.Experiment - Starting round 125
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L E I O M / Q Q Z S Y V Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 126
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I I E M / Z Y T Z Q W V]
+[main] INFO de.learnlib.util.Experiment - Starting round 127
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B A B M M / Q Q Y X R V W X]
+[main] INFO de.learnlib.util.Experiment - Starting round 128
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L E I D O L / Q Q Z S Y P Q -]
+[main] INFO de.learnlib.util.Experiment - Starting round 129
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A A I E G / Y V Z Q R X Z R]
+[main] INFO de.learnlib.util.Experiment - Starting round 130
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M O I M M D / Z Y Z P W T - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 131
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M O I M L M / Z Y Z P W T Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 132
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C G J N D / Q Q Y P V V S P]
+[main] INFO de.learnlib.util.Experiment - Starting round 133
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C A L D I D / Q Q Y P X S P W Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 134
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I J O I D / Z Y T Z W Z Q X]
+[main] INFO de.learnlib.util.Experiment - Starting round 135
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D N C D E / Y V R Q S Y R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 136
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L E B C A O / Y V Z Z Y X W -]
+[main] INFO de.learnlib.util.Experiment - Starting round 137
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O J D A D G / Y V R R S V W Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 138
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O E B I L J / Y V Z Y X Q T -]
+[main] INFO de.learnlib.util.Experiment - Starting round 139
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O J D M L / Y V R R S V X Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 140
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M O I C C / Z Y Z P W T -]
+[main] INFO de.learnlib.util.Experiment - Starting round 141
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C O D / Q Q Z V R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 142
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I J O C D / Z Y T Z W Z S Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 143
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A O J D C / Q Q Z R R Q Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 144
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D N C G D / Y V R Q S Y R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 145
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D N O M / Y V R Q S X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 146
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D N O I D / Y V R Q S X Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 147
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A O B E M / Q Q Z R R Q T -]
+[main] INFO de.learnlib.util.Experiment - Starting round 148
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I J L G J M / Z Y T Z W P V Q -]
+[main] INFO de.learnlib.util.Experiment - Starting round 149
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I J L G J D / Z Y T Z W P V Q -]
+[main] INFO de.learnlib.util.Experiment - Starting round 150
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I O E D O / Z Y T Z S V X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 151
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C O J D M / Q Q Z V R Y X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 152
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A O B D A / Q Q Z R R Q S V]
+[main] INFO de.learnlib.util.Experiment - Starting round 153
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O H N C A / Y V R R Q X Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 154
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D G C J / Y V R Q W V Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 155
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D G C J A L / Y V R Q W V Z Q R]
+[main] INFO de.learnlib.util.Experiment - Starting round 156
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C D / Z Y Y T X]
+[main] INFO de.learnlib.util.Experiment - Starting round 157
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C A B I D / Z Y Y T Z P Q -]
+[main] INFO de.learnlib.util.Experiment - Starting round 158
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J A M / Z Y Y T S T R]
+[main] INFO de.learnlib.util.Experiment - Starting round 159
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J A L M / Z Y Y T S T X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 160
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J A M J D / Z Y Y T S T R V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 161
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C E M / Z Y Y T P Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 162
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C E M A M D / Z Y Y T P Q V P -]
+[main] INFO de.learnlib.util.Experiment - Starting round 163
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C D G / Z Y Y T X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 164
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C D I O A / Z Y Y T X Y T -]
+[main] INFO de.learnlib.util.Experiment - Starting round 165
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C A B J G C / Z Y Y T Z P V R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 166
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C D O I D G / Z Y Y T X V X Z S]
+[main] INFO de.learnlib.util.Experiment - Starting round 167
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C D O I D D G / Z Y Y T X V X Z V V]
+[main] INFO de.learnlib.util.Experiment - Starting round 168
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A O J B A / Q Q Z R R Q V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 169
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A A I C N / Y V Z Q R X Q Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 170
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D B G C N C D / T Q Q Q Y S X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 171
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D N C C A / Y V R Q S Y T T]
+[main] INFO de.learnlib.util.Experiment - Starting round 172
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A O B C E / Q Q Z R R Q Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 173
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C A B I J M / Z Y Y T Z P Q T V]
+[main] INFO de.learnlib.util.Experiment - Starting round 174
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C E M J E M / Z Y Y T P Q V Z T]
+[main] INFO de.learnlib.util.Experiment - Starting round 175
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C N M M G J / Q Q Z V X Q V V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 176
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E J N B A M / Y V Y X Z Y Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 177
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C A B J O J M / Z Y Y T Z P V Z Y Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 178
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C N A H A / Q Q Z V X R X V]
+[main] INFO de.learnlib.util.Experiment - Starting round 179
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B A M H M / Q Q Y X R X Q -]
+[main] INFO de.learnlib.util.Experiment - Starting round 180
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C L I G M / Q Q Z V S W Q Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 181
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C E M E L / Q Q Z V Q S S T]
+[main] INFO de.learnlib.util.Experiment - Starting round 182
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D G C E E L / Y V R Q W V R V P]
+[main] INFO de.learnlib.util.Experiment - Starting round 183
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D G N E B I / Y V R Q W P P Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 184
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D G C E E C D / Y V R Q W V R V Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 185
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I E J N C A N B D / Y V Y X Z T Q S T W]
+[main] INFO de.learnlib.util.Experiment - Starting round 186
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M O I M E A / Z Y Z P W T Q Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 187
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J A J C I O / Z Y Y T S T Y P Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 188
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A O N C I N / Y V Z Q Z R Y S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 189
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A A N L A / Y V Z Q R T Q P]
+[main] INFO de.learnlib.util.Experiment - Starting round 190
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C D I O I I D / Z Y Y T X Y T T P Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 191
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O C A A I N / Q P Y Z V Y Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 192
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D N C C G I M / Y V R Q S Y T R V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 193
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C A M M C / Z Y Y T Z Z R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 194
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O I N L C M M / Q P P Q T W Z -]
+[main] INFO de.learnlib.util.Experiment - Starting round 195
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L E I O M D / Q Q Z S Y V Q X]
+[main] INFO de.learnlib.util.Experiment - Starting round 196
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M L A N L M M / Z Y Z X T R X Z Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 197
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D D C M G C / Y V R Q S X X R X]
+[main] INFO de.learnlib.util.Experiment - Starting round 198
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C E I M M / Z Y Y T P R P -]
+[main] INFO de.learnlib.util.Experiment - Starting round 199
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C E I M L / Z Y Y T P R P S]
+[main] INFO de.learnlib.util.Experiment - Starting round 200
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C E I M G M / Z Y Y T P R P X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 201
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C E I M I O / Z Y Y T P R P Y W]
+[main] INFO de.learnlib.util.Experiment - Starting round 202
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C O M M / Q Q Z V R Z R]
+[main] INFO de.learnlib.util.Experiment - Starting round 203
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C O M J M D / Q Q Z V R Z Y - -]
+[main] INFO de.learnlib.util.Experiment - Starting round 204
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C O M M M / Q Q Z V R Z R V]
+[main] INFO de.learnlib.util.Experiment - Starting round 205
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L C O M I A / Q Q Z V R Z Y V]
+[main] INFO de.learnlib.util.Experiment - Starting round 206
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O E J N G N / Y V Z Y P V X P]
+[main] INFO de.learnlib.util.Experiment - Starting round 207
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C E I M N D / Z Y Y T P R P V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 208
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M L J N A / Z Y Z X S V Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 209
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C D O B C O / Z Y Y T X V W W -]
+[main] INFO de.learnlib.util.Experiment - Starting round 210
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M L J N C G J / Z Y Z X S V W S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 211
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O E B C J C J / Y V Z Y X X R Y R]
+[main] INFO de.learnlib.util.Experiment - Starting round 212
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I D E N N / Z Y T Z S Y X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 213
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O H N N N / Y V R R Q X Y V]
+[main] INFO de.learnlib.util.Experiment - Starting round 214
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O E B B N O / Y V Z Y X Y T S]
+[main] INFO de.learnlib.util.Experiment - Starting round 215
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C A N O / Z Y Y T Z T S]
+[main] INFO de.learnlib.util.Experiment - Starting round 216
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J O O / Z Y Y T S V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 217
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J O N D / Z Y Y T S V W -]
+[main] INFO de.learnlib.util.Experiment - Starting round 218
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C A N O M / Z Y Y T Z T S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 219
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C A N M C / Z Y Y T Z T W Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 220
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C A N M C L / Z Y Y T Z T W Y Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 221
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J O M J A / Z Y Y T S V W X Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 222
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J O M J N M N / Z Y Y T S V W X S Z T]
+[main] INFO de.learnlib.util.Experiment - Starting round 223
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J O M J N M N E / Z Y Y T S V W X S Z T -]
+[main] INFO de.learnlib.util.Experiment - Starting round 224
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C A M A M / Z Y Y T Z Z W -]
+[main] INFO de.learnlib.util.Experiment - Starting round 225
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B C M A L / Q Q Y X Q S X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 226
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I J O A C / Z Y T Z W Z R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 227
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I J O A G I G / Z Y T Z W Z R Z V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 228
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I I E M A E / Z Y T Z Q W V S W]
+[main] INFO de.learnlib.util.Experiment - Starting round 229
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O H C O A M / Y V R R Q X T V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 230
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G D D M A D / T Q R S R Y S V Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 231
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A C J A I / Y V Z Q R X Z W]
+[main] INFO de.learnlib.util.Experiment - Starting round 232
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F M O I M A O / Z Y Z P W T Z S]
+[main] INFO de.learnlib.util.Experiment - Starting round 233
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A O B A C / Q Q Z R R Q Q V]
+[main] INFO de.learnlib.util.Experiment - Starting round 234
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C D A O / Z Y Y T X S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 235
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C D A C A C / Z Y Y T X S Q R Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 236
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D N L O / Y V R Q S R -]
+[main] INFO de.learnlib.util.Experiment - Starting round 237
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D N L M N / Y V R Q S R Q V]
+[main] INFO de.learnlib.util.Experiment - Starting round 238
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G D D L M / T Q R S R Y P -]
+[main] INFO de.learnlib.util.Experiment - Starting round 239
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I O D L L / Z Y T Z S W X X]
+[main] INFO de.learnlib.util.Experiment - Starting round 240
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D G A L O / Y V R Q W W S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 241
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L E B M L A / Y V Z Z Y S W Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 242
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I C N D O B L / Q Q Y P R V V W Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 243
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A C B B I G / Y V Z Q R P P V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 244
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G B C C / T Q R S X Y R]
+[main] INFO de.learnlib.util.Experiment - Starting round 245
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G B C C C / T Q R S X Y R V]
+[main] INFO de.learnlib.util.Experiment - Starting round 246
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G B C H M / T Q R S X Y V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 247
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J O M J N O N / Z Y Y T S V W X S V W]
+[main] INFO de.learnlib.util.Experiment - Starting round 248
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J O M J N O N L / Z Y Y T S V W X S V W W]
+[main] INFO de.learnlib.util.Experiment - Starting round 249
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F A I D E O E / Z Y T Z S Y W Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 250
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O O J O D / Y V R R Y P X V]
+[main] INFO de.learnlib.util.Experiment - Starting round 251
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O O M O C / Y V R R Y T X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 252
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O D J O L / Y V R R Y Z P -]
+[main] INFO de.learnlib.util.Experiment - Starting round 253
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O D J O A / Y V R R Y Z P V]
+[main] INFO de.learnlib.util.Experiment - Starting round 254
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O E B B N O N / Y V Z Y X Y T S -]
+[main] INFO de.learnlib.util.Experiment - Starting round 255
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E L A N G B O D / Q Q Z R Z Y P V -]
+[main] INFO de.learnlib.util.Experiment - Starting round 256
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L C O I N D M / Y V Z W P S W P P]
+[main] INFO de.learnlib.util.Experiment - Starting round 257
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G D J B I C E / Y V R Q W Q T Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 258
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|F D M G D A M D / T Q R S R Z P V]
+[main] INFO de.learnlib.util.Experiment - Starting round 259
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C J A M L M M / Z Y Y T S T R V Y -]
+[main] INFO de.learnlib.util.Experiment - Starting round 260
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J E I B A B E N E / Q Q Y X R V T R Q]
+[main] INFO de.learnlib.util.Experiment - Starting round 261
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I G O O N N M / Y V R R Y S R V]
+[main] INFO de.learnlib.util.Experiment - Starting round 262
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|J O E N N M / Q P Y Y Q Z]
+[main] INFO de.learnlib.util.Experiment - Starting round 263
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I O A C B E A E / Y V Z Q R P S S Y]
+[main] INFO de.learnlib.util.Experiment - Starting round 264
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C A M M G L L / Z Y Y T Z Z R T X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 265
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C A M M G L N / Z Y Y T Z Z R T X V]
+[main] INFO de.learnlib.util.Experiment - Starting round 266
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L C M E B L E / Y V Z W P R T W R]
+[main] INFO de.learnlib.util.Experiment - Starting round 267
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|L I L E B E E O L / Y V Z Z Y Y Z X -]
+[main] INFO de.learnlib.util.Experiment - Starting round 268
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO de.learnlib.util.Experiment - Query[ε|K F I C A B I A O D / Z Y Y T Z P Q V Q S]
+[main] INFO de.learnlib.util.Experiment - Starting round 269
+[main] INFO de.learnlib.util.Experiment - Learning
+[main] INFO de.learnlib.util.Experiment - Searching for counterexample
+[main] INFO nl.utwente.fmt.rers.TimeOutEQOracle - Timeout reached.
+[main] INFO nl.utwente.fmt.rers.TimeOutEQOracle - Useless equivalence queries: 281811952
+[main] INFO nl.utwente.fmt.rers.TimeOutEQOracle - Useless equivalence symbols: 3400011077
+[main] INFO nl.utwente.fmt.rers.TimeOutEQOracle - Real useless queries: 281811952
+[main] INFO nl.utwente.fmt.rers.TimeOutEQOracle - Real useless symbols: 3400011077
+[main] INFO nl.utwente.fmt.rers.Main - final states: 646
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(((letter == "A") && !(letter == "I")) && (true U (letter == "I"))) || (!(letter == "R") U ((letter == "M") || (letter == "I")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L A I / Q Q Z R R]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '((false R !(letter == "S")) || (!(letter == "S") U ((letter == "S") && (!(true U (letter == "W")) || (!(letter == "W") U (((letter == "Q") && !(letter == "W")) && X (!(letter == "W") U (letter == "A"))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F A I O D / Z Y T Z S W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "R") || ((!(((letter == "T") && !(letter == "M")) && X (!(letter == "M") U ((letter == "V") && !(letter == "M")))) U ((letter == "M") || (letter == "C"))) || (false R !((letter == "T") && X (true U (letter == "V")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I O A A N J / Y V Z Q R T V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "Y")) || ((!(letter == "N") || (!(letter == "Y") U ((((letter == "R") && !(letter == "Y")) && !(letter == "V")) && X ((!(letter == "Y") && !(letter == "V")) U (letter == "S"))))) U (letter == "Y")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L A N G / Q Q Z R Z Y]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "L")) || ((!(letter == "D") || (!(letter == "L") U ((letter == "Y") && !(letter == "L")))) U (letter == "L")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M G D L / T Q R S R Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "O")) || ((!(letter == "G") || (!(letter == "O") U ((((letter == "X") && !(letter == "O")) && !(letter == "W")) && X ((!(letter == "O") && !(letter == "W")) U (letter == "R"))))) U (letter == "O")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I G O / Y V R R]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "C")) || ((!(letter == "D") || (!(letter == "C") U ((((letter == "X") && !(letter == "C")) && !(letter == "T")) && X ((!(letter == "C") && !(letter == "T")) U (letter == "U"))))) U (letter == "C")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D B G C / T Q Q Q Y]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "W") && (!!(letter == "O") || (!(letter == "Y") W ((letter == "E") || (letter == "O"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U ((letter == "Q") && X (true U (letter == "S")))) || (!(letter == "Q") U (letter == "I")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M G / T Q R S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "G")) || ((!(letter == "A") || (!(letter == "G") U (((letter == "R") && !(letter == "G")) && X (!(letter == "G") U (letter == "S"))))) U (letter == "G")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E I B A G / Q Q Y X R Z]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "L")) || (((letter == "I") && (!X (!(letter == "L") U (letter == "H")) || X (!(letter == "L") U ((letter == "H") && (true U (letter == "V")))))) U (letter == "L")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L / Q Q Z]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "K") || (((letter == "G") && (!X (!(letter == "L") U (letter == "I")) || X (!(letter == "L") U ((letter == "I") && (true U (letter == "Y")))))) U ((letter == "L") || (false R ((letter == "G") && (!X (!(letter == "L") U (letter == "I")) || X (!(letter == "L") U ((letter == "I") && (true U (letter == "Y")))))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K / Z]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "E")) || ((!(letter == "F") || (!(letter == "E") U (((letter == "Y") && !(letter == "E")) && X (!(letter == "E") U (letter == "Q"))))) U (letter == "E")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F I C E / Z Y Y T P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "F") || ((!(letter == "N") || (!(letter == "D") U ((((letter == "P") && !(letter == "D")) && !(letter == "T")) && X ((!(letter == "D") && !(letter == "T")) U (letter == "W"))))) U ((letter == "D") || (false R (!(letter == "N") || (((letter == "P") && !(letter == "T")) && X (!(letter == "T") U (letter == "W")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F A I J O I N D / Z Y T Z W Z Q R S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "D")) || ((!(letter == "G") || (!(letter == "D") U (((letter == "P") && !(letter == "D")) && X (!(letter == "D") U (letter == "S"))))) U (letter == "D")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I G D / Y V R Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "H") || ((!(letter == "D") || (!(letter == "C") U (((letter == "Y") && !(letter == "C")) && X (!(letter == "C") U (letter == "S"))))) U ((letter == "C") || (false R (!(letter == "D") || ((letter == "Y") && X (true U (letter == "S")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I G O H N N B D D C / Y V R R Q X Y V Q S X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U ((letter == "S") && X (true U (letter == "X")))) || (!(letter == "S") U (letter == "Z")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M G B / T Q R S X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "L") && (true U (letter == "E"))) || ((!(letter == "B") || (!(letter == "E") U ((((letter == "W") && !(letter == "E")) && !(letter == "S")) && X ((!(letter == "E") && !(letter == "S")) U (letter == "Z"))))) U (letter == "E"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L A O B E / Q Q Z R R Q T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "I") && (true U (letter == "J"))) || (!(letter == "P") U ((letter == "J") || (((letter == "S") && !(letter == "P")) && X (!(letter == "P") U (letter == "M")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E I C G J / Q Q Y P V V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U ((letter == "X") && X (true U (letter == "P")))) || (!(letter == "X") U (letter == "V")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M G O D B / T Q R S T X P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '((false R !(letter == "Y")) || (!(letter == "Y") U ((letter == "Y") && (!(true U ((letter == "Q") && X (true U (letter == "V")))) || (!(letter == "Q") U (letter == "D"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I O A O O / Y V Z Q Z V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "W") || (!(true U (letter == "X")) || (!(letter == "X") U ((letter == "R") || (((letter == "N") && !(letter == "X")) && X (!(letter == "X") U (letter == "A"))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I O E L O G / Y V Z Y Y W X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "T") && (!!(letter == "Y") || (!(letter == "Z") W ((letter == "A") || (letter == "Y"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "W") || (false R (!(letter == "O") || ((letter == "Z") && X (true U (letter == "T")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I L C O / Y V Z W P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "V") || (((letter == "J") && (!X (!(letter == "H") U (letter == "A")) || X (!(letter == "H") U ((letter == "A") && (true U (letter == "P")))))) U ((letter == "H") || (false R ((letter == "J") && (!X (!(letter == "H") U (letter == "A")) || X (!(letter == "H") U ((letter == "A") && (true U (letter == "P")))))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I / Y V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(letter == "S") W (letter == "R"))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L E / Q Q Z S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "Z") || (false R (!(letter == "E") || (((letter == "R") && !(letter == "X")) && X (!(letter == "X") U (letter == "Q")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L E / Q Q Z S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "V") || (false R (!(letter == "H") || ((letter == "P") && X (true U (letter == "R")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I G O H / Y V R R Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "A") && (!X (true U (letter == "E")) || X (true U ((letter == "E") && (true U (letter == "P")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '((false R !(letter == "Q")) || (!(letter == "Q") U ((letter == "Q") && (!(true U ((letter == "R") && X (true U (letter == "S")))) || (!(letter == "R") U (letter == "X"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M G / T Q R S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "N") && (!!(letter == "Q") || (!(letter == "V") W ((letter == "I") || (letter == "Q"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "M")) || ((!(letter == "I") || (!(letter == "M") U ((letter == "R") && !(letter == "M")))) U (letter == "M")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I L C M / Y V Z W P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "C")) || ((!(letter == "D") || (!(letter == "C") U ((letter == "P") && !(letter == "C")))) U (letter == "C")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D B G C / T Q Q Q Y]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(((letter == "H") && !(letter == "I")) && (true U (letter == "I"))) || (!(letter == "Y") U ((letter == "B") || (letter == "I")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E I B C M A I H I / Q Q Y X Q S X W Y X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "M") && (true U (letter == "N"))) || ((!(letter == "A") || (!(letter == "N") U ((((letter == "R") && !(letter == "N")) && !(letter == "T")) && X ((!(letter == "N") && !(letter == "T")) U (letter == "X"))))) U (letter == "N"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F M L A N / Z Y Z X T R]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "F") && (true U (letter == "B"))) || (!(letter == "P") U ((letter == "B") || (((letter == "S") && !(letter == "P")) && X (!(letter == "P") U (letter == "H")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F M O I J C B / Z Y Z P W Q V X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "D")) || (((letter == "G") && (!X (!(letter == "D") U (letter == "C")) || X (!(letter == "D") U ((letter == "C") && (true U (letter == "T")))))) U (letter == "D")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D / T Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(letter == "P") W (letter == "A"))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O / Q P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "C") && (true U (letter == "N"))) || ((!(letter == "E") || (!(letter == "N") U (((letter == "S") && !(letter == "N")) && X (!(letter == "N") U (letter == "R"))))) U (letter == "N"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O C A E N / Q P Y Z W V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "C")) || (!(((letter == "S") && !(letter == "C")) && X (!(letter == "C") U ((letter == "R") && !(letter == "C")))) U ((letter == "C") || (letter == "F"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I G D N L M N C / Y V R Q S R Q V Y]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "J") && (!X (true U (letter == "M")) || X (true U ((letter == "M") && (true U (letter == "P")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K / Z]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "D")) || (((letter == "M") && (!X (!(letter == "D") U (letter == "H")) || X (!(letter == "D") U ((letter == "H") && (true U (letter == "S")))))) U (letter == "D")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D / T Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '((false R !(letter == "K")) || (!(letter == "K") U ((letter == "K") && (!(true U (letter == "W")) || (!(letter == "W") U (((letter == "T") && !(letter == "W")) && X (!(letter == "W") U (letter == "Y"))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|K F A I J / Z Y T Z W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "P") || (false R ((letter == "A") && (!X (true U (letter == "N")) || X (!(letter == "N") U ((letter == "N") && (true U (letter == "Z")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O / Q P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "P") && (true U (letter == "O"))) || (!(letter == "R") U ((letter == "O") || (((letter == "C") && !(letter == "R")) && X (!(letter == "R") U (letter == "N")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E I C N D O / Q Q Y P R V V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "P") && (true U (letter == "W"))) || (!(((letter == "T") && !(letter == "W")) && X (!(letter == "W") U ((letter == "Z") && !(letter == "W")))) U ((letter == "W") || (letter == "R")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J O I N L E L A / Q P P Q T T Z W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "O") && (true U (letter == "E"))) || ((!(letter == "J") || (!(letter == "E") U ((((letter == "P") && !(letter == "E")) && !(letter == "Z")) && X ((!(letter == "E") && !(letter == "Z")) U (letter == "T"))))) U (letter == "E"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L C O M J E / Q Q Z V R Z Y V]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "X")) || (!(((letter == "W") && !(letter == "X")) && X (!(letter == "X") U ((letter == "Q") && !(letter == "X")))) U ((letter == "X") || (letter == "T"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I O E L O I N / Y V Z Y Y W Q X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "F") && (!!(letter == "K") || (!(letter == "X") W ((letter == "L") || (letter == "K"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "S") || (((letter == "M") && (!X (!(letter == "G") U (letter == "F")) || X (!(letter == "G") U ((letter == "F") && (true U (letter == "W")))))) U ((letter == "G") || (false R ((letter == "M") && (!X (!(letter == "G") U (letter == "F")) || X (!(letter == "G") U ((letter == "F") && (true U (letter == "W")))))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M G / T Q R S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(letter == "R") W (letter == "E"))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M / T Q R]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "A")) || (((letter == "L") && (!X (!(letter == "A") U (letter == "J")) || X (!(letter == "A") U ((letter == "J") && (true U (letter == "X")))))) U (letter == "A")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E A / Q Q W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "Q") || (!(true U (letter == "Z")) || (!(letter == "Z") U ((letter == "X") || (((letter == "H") && !(letter == "Z")) && X (!(letter == "Z") U (letter == "U"))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L / Q Q Z]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "T")) || (!(letter == "T") U (((letter == "G") && !(letter == "T")) && X (!(letter == "T") U (letter == "V")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F / T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(((letter == "X") && !(letter == "T")) && (true U (letter == "T"))) || (!(letter == "Y") U ((letter == "V") || (letter == "T")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I O E B B N / Y V Z Y X Y T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "R") && (!!(letter == "O") || (!(letter == "Q") W ((letter == "N") || (letter == "O"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "J") || ((!(letter == "A") || (!(letter == "B") U ((((letter == "R") && !(letter == "B")) && !(letter == "W")) && X ((!(letter == "B") && !(letter == "W")) U (letter == "V"))))) U ((letter == "B") || (false R (!(letter == "A") || (((letter == "R") && !(letter == "W")) && X (!(letter == "W") U (letter == "V")))))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E L A O B / Q Q Z R R Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(!(true U (letter == "T")) || ((!(letter == "H") || (!(letter == "T") U ((((letter == "W") && !(letter == "T")) && !(letter == "Y")) && X ((!(letter == "T") && !(letter == "Y")) U (letter == "R"))))) U (letter == "T")))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I G O H C O / Y V R R Q X T]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(((letter == "Y") && !(letter == "W")) && (true U (letter == "W"))) || ((!(letter == "H") || (!(letter == "W") U ((letter == "S") && !(letter == "W")))) U (letter == "W"))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D M G B C H G / T Q R S X Y V W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(letter == "B") || ((!(((letter == "V") && !(letter == "J")) && X (!(letter == "J") U ((letter == "W") && !(letter == "J")))) U ((letter == "J") || (letter == "Y"))) || (false R !((letter == "V") && X (true U (letter == "W")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J E I B A B M / Q Q Y X R V W]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "N") && (true U (letter == "X"))) || (!(letter == "Y") U ((letter == "X") || (((letter == "F") && !(letter == "Y")) && X (!(letter == "Y") U (letter == "S")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I O A O N C G / Y V Z Q Z R Y X]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!(((letter == "E") && !(letter == "P")) && (true U (letter == "P"))) || (!(letter == "R") U ((letter == "G") || (letter == "P")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|F D B M A E J / T Q Q Q T R P]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "N") && (!X (true U (letter == "L")) || X (true U ((letter == "L") && (true U (letter == "W")))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R (!((letter == "L") && (true U (letter == "G"))) || (!(((letter == "W") && !(letter == "G")) && X (!(letter == "G") U ((letter == "Y") && !(letter == "G")))) U ((letter == "G") || (letter == "Q")))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|L I L C O M A G / Y V Z W P R Y S]
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Property violated: '(false R ((letter == "G") && (!!(letter == "C") || (!(letter == "Y") W ((letter == "B") || (letter == "C"))))))'
+[main] INFO de.learnlib.api.logging.LoggingPropertyOracle - Counter example for property: Query[ε|J / Q]
+[main] INFO nl.utwente.fmt.rers.Main - Final learning queries: 30512
+[main] INFO nl.utwente.fmt.rers.Main - Properties disproved: 65

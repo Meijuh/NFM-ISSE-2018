@@ -1,0 +1,2 @@
+problem,learner,aut,bbo,property,size,realsymbols,learnsymbols,eqsymbols,emsymbols,emosymbols,insymbols,realqueries,learnqueries,eqqueries,emqueries,emoqueries,inqueries,length,multiplier,refinements
+7,DiscriminationTree,buchi,disprove-first,13,195,25453925,25409830,0,0,36076478,44095,10242,10234,0,0,1668788,8,39,35.000000,9
