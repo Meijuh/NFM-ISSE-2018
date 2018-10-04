@@ -57,7 +57,7 @@ Mandatory parameters are `problem number` indicating the RERS problem number, wh
 A mandatory flag is `--ltsmin-skip-version-check`.
 Note that supplying at least one of `--monitor` and `--buchi` is also necessary.
 Supplying `--monitor` will perform black-box checking with *monitoring*, and supplying `--buchi` will perform black-box checking with *model checking*.
-One can also give both `--monitor` *and* `--buchi*.
+One can also give both `--monitor` *and* `--buchi`.
 If both flags are given then *first* monitors are used to disprove properties and hypotheses before Büchi automata are used.
 
 So running `java -cp target/RERS-1.0-SNAPSHOT-jar-with-dependencies.jar nl.utwente.fmt.rers.Main 1 TTT -B` performs black-box checking with *model checking*.
